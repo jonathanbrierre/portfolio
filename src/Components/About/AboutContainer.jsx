@@ -12,7 +12,7 @@ const About = () => {
                 <div className = 'textContainer'>
                     
                     <div className = 'aboutText'> My name is Jonathan Brierre. Thank you for taking the time to check out my portfolio. <br></br> <br></br>
-                    I just recently graduated from The Flatiron School and am looking for ways to provide value to your endeavors. If you feel I can help you in achieving your goals, please feel free to contact me <Link to ='/contact'>here</Link> 
+                    I just recently graduated from The Flatiron School and am looking for ways learn and grow more while providing value to your endeavors. If you feel I can help you in achieving your goals, please feel free to contact me <Link to ='/contact'>here</Link> 
                     </div> 
                 </div>
             </div>
