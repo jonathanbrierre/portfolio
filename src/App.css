@@ -18,3 +18,11 @@ padding-right: 10vw;
   padding-top: 5vh;
   text-align: center;
 }
+
+.card{
+  width: 80%
+}
+
+.projectCard a{
+  padding: 5px
+}
