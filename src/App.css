@@ -1,9 +1,0 @@
-div.menu a.item {
-  /* color: black; */
-  padding: 3vw
-}
-
-a.active{
-  background-color: green;
-  color: orange;
-}
