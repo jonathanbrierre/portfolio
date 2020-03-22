@@ -1,0 +1,15 @@
+.profileDiv{
+  text-align: center;
+  padding-top: 10vh;
+  /* border: dashed pink */
+}
+
+.textContainer {
+  /* text-align: center; */
+}
+
+.aboutText{
+padding-top: 5vh;
+padding-left: 10vw;
+padding-right: 10vw;
+}
