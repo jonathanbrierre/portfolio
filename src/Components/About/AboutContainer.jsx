@@ -7,7 +7,7 @@ const About = () => {
             <NavBar/>
             <div className = 'profileDiv'>
                 <h1>Hello World!</h1>
-                <img src = 'https://images-na.ssl-images-amazon.com/images/I/41FBm7PCIfL._US230_.jpg' alt = ''></img>
+                {/* <img src = 'https://images-na.ssl-images-amazon.com/images/I/41FBm7PCIfL._US230_.jpg' alt = ''></img> */}
                 <br></br>
                 <div className = 'textContainer'>
                     
