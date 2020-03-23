@@ -37,7 +37,8 @@ class ProjectsContainer extends React.Component{
             {
                 id: 4,
                 name: 'Pineapple Express',
-                description: 'Just your average ordinary pineapple-themed apparel store.',
+                description: 'Just your average ordinary pineapple-themed apparel store',
+                disclaimer: true,
                 technologiesUsed: ['Ruby on Rails', 'HTML/CSS', 'BCrypt Cookie Authentication', 'Action Mailer'],
                 gitHubLink: 'https://github.com/jonathanbrierre/Pineapple-Express',
                 liveDemo: 'https://pineapple-express.herokuapp.com/',

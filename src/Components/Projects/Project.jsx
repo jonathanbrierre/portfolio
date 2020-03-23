@@ -4,7 +4,7 @@ import { Card, Icon, Image } from 'semantic-ui-react'
 
 class Project extends Component {
     render() {
-        let {name, description, technologiesUsed, frontGitHubLink, backGitHubLink, liveDemo, videoDemo, gitHubLink } = this.props.project 
+        let {name, description, technologiesUsed, frontGitHubLink, backGitHubLink, liveDemo, videoDemo, gitHubLink, disclaimer } = this.props.project 
         return (
             <div style = {{textAlign: 'center'}}>
                 <br></br>
@@ -21,6 +21,8 @@ class Project extends Component {
                         <Card.Description>
                             <h4>Technologies Used:</h4> {technologiesUsed.join(', ')}
                         </Card.Description>
+                        <br></br>
+                        {disclaimer ? <div><em>Disclaimer:</em> The live demo, being hosted on Heroku, will take about 15 seconds to load. Worth the wait IMO </div>: null}
                         </Card.Content>
                         <Card.Content extra>
                         {frontGitHubLink ? <a href = {frontGitHubLink} rel="noopener noreferrer" target = '_blank'>
@@ -38,6 +40,7 @@ class Project extends Component {
                         {videoDemo ? <a href = {videoDemo} target = '_blank'>
                             Video Demo 
                         </a>:null}
+                        
                         </Card.Content>
                     </Card>
                 </div>
