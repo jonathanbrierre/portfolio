@@ -4,18 +4,20 @@ import { Card, Icon, Image } from 'semantic-ui-react'
 
 class Project extends Component {
     render() {
-        console.log(this.props)
-        let {name, description, technologiesUsed, frontGitHubLink, backGitHubLink, liveDemo, videoDemo } = this.props.project 
+        let {name, description, technologiesUsed, frontGitHubLink, backGitHubLink, liveDemo, videoDemo, gitHubLink } = this.props.project 
         return (
             <div style = {{textAlign: 'center'}}>
+                <br></br>
                 <div style ={{width: '80%', marginLeft: 'auto', marginRight: 'auto'}}>
                     <Card fluid className ='projectCard'>
-                        <Image src='https://media1.tenor.com/images/642302f2c212571f2b82128bd961c34e/tenor.gif?itemid=9978863' wrapped ui={false} />
+                        <Image  wrapped ui={false} />
                         <Card.Content>
                         <Card.Header>{name}</Card.Header>
+                        <br></br>
                         <Card.Meta>
                             <span className='date'>{description}</span>
                         </Card.Meta>
+                        <br></br>
                         <Card.Description>
                             <h4>Technologies Used:</h4> {technologiesUsed.join(', ')}
                         </Card.Description>
@@ -23,7 +25,10 @@ class Project extends Component {
                         <Card.Content extra>
                         {frontGitHubLink ? <a href = {frontGitHubLink} rel="noopener noreferrer" target = '_blank'>
                             Frontend Repo
-                        </a>: null} {' '} {' '}
+                        </a>: null} {' '}{' '}
+                        {gitHubLink ? <a href = {gitHubLink} rel="noopener noreferrer" target = '_blank'>
+                            GitHub Repo
+                        </a>: null} {' '}{' '}
                         {backGitHubLink ? <a href = {backGitHubLink}  rel="noopener noreferrer" target = '_blank'>
                             Backend Repo
                         </a>:null} {' '}{' '}
@@ -36,6 +41,7 @@ class Project extends Component {
                         </Card.Content>
                     </Card>
                 </div>
+                <br></br>
             </div>
         )
     }
