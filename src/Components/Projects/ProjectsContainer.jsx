@@ -68,7 +68,7 @@ class ProjectsContainer extends React.Component{
                 <div className = 'contentContainer'>
                     {this.renderProjects()}
                     <div style={{padding: '3vh'}}></div>
-                    <footer style ={{color: 'white', backgroundColor:'black', textAlign: 'center', padding: '1vh', position:'fixed', zIndex: '2', left: '0', bottom: '0', }}> <p>This site was built using React, React Router, CSS, and Semantic UI React</p></footer>
+                    <footer style ={{color: 'white', backgroundColor:'black', textAlign: 'center', padding: '1vh', position:'fixed', zIndex: '2', left: '0', bottom: '0', width: '100%' }}> <p>This site was built using React, React Router, CSS, and Semantic UI React</p></footer>
                 </div>
             </div>
     )}
