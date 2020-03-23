@@ -34,10 +34,10 @@ class Project extends Component {
                         {backGitHubLink ? <a href = {backGitHubLink}  rel="noopener noreferrer" target = '_blank'>
                             Backend Repo
                         </a>:null} {' '}{' '}
-                        {liveDemo ? <a href = {liveDemo} rel="noopener noreferrer" target = '_blank'>
+                        {liveDemo ? <a href = {liveDemo} rel="noopener noreferrer" target = '_blank' style ={{display:'inline-block'}} >
                             Live Demo
                         </a>:null}{' '}{' '}
-                        {videoDemo ? <a href = {videoDemo} target = '_blank'>
+                        {videoDemo ? <a href = {videoDemo} target = '_blank' style ={{display:'inline-block'}} >
                             Video Demo 
                         </a>:null}
                         

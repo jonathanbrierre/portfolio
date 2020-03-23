@@ -26,3 +26,9 @@ padding-right: 10vw;
 .projectCard a{
   padding: 5px
 }
+
+.contentContainer{
+  position: relative;
+  top: 7vh;
+  z-index: -2;
+}

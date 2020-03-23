@@ -19,7 +19,7 @@ class ProjectsContainer extends React.Component{
             {
                 id: 2,
                 name: 'Stocks App',
-                description: "A mock stock buying application where a user searches for stocks to be added to a portfolio",
+                description: "A mock stock buying application where a user searches for live stocks to be added to a portfolio and audit pages",
                 technologiesUsed: ['React', 'Redux', 'React Router', 'Ruby on Rails', 'Semantic UI React', 'JWT Token Authentication', 'IEXCloud API'],
                 gitHubLink: 'https://github.com/jonathanbrierre/Stocks-TechTalent',
                 liveDemo: 'https://nycttp-stocks.netlify.com/'
@@ -37,7 +37,7 @@ class ProjectsContainer extends React.Component{
             {
                 id: 4,
                 name: 'Pineapple Express',
-                description: 'Just your average ordinary pineapple-themed apparel store',
+                description: 'Just your ordinary pineapple-themed apparel store',
                 disclaimer: true,
                 technologiesUsed: ['Ruby on Rails', 'HTML/CSS', 'BCrypt Cookie Authentication', 'Action Mailer'],
                 gitHubLink: 'https://github.com/jonathanbrierre/Pineapple-Express',
@@ -65,7 +65,10 @@ class ProjectsContainer extends React.Component{
         return (
             <div>
                 <NavBar/>
-                {this.renderProjects()}
+                <div className = 'contentContainer'>
+                    {this.renderProjects()}
+                    <footer style ={{color: 'white', backgroundColor:'black', textAlign: 'center', padding: '1vh'}}> <p>This site was built using React, React Router, CSS, and Semantic UI React</p></footer>
+                </div>
             </div>
     )}
 }

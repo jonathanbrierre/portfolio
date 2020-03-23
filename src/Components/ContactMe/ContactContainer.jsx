@@ -6,7 +6,7 @@ class Contact extends Component {
         return (
             <div>
                 <NavBar/>
-                <div className = 'contactDiv'>
+                <div className = 'contactDiv contentContainer' >
                     <h1> Contact Info</h1>
                     <h3>Email:</h3> jonathanbrierre33@gmail.com
                     <h3>Phone :</h3> (516) 273-3314
