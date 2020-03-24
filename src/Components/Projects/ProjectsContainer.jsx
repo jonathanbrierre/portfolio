@@ -22,7 +22,7 @@ class ProjectsContainer extends React.Component{
                 description: "A mock stock buying application where a user searches for live stocks to be added to a portfolio and audit pages",
                 technologiesUsed: ['React', 'Redux', 'React Router', 'Ruby on Rails', 'Semantic UI React', 'JWT Token Authentication', 'IEXCloud API'],
                 gitHubLink: 'https://github.com/jonathanbrierre/Stocks-TechTalent',
-                // liveDemo: 'https://nycttp-stocks.netlify.com/'
+                liveDemo: 'https://nycttp-stocks.netlify.com/',
                 videoDemo: 'https://youtu.be/f0PQrx_FJJY'
             },
             { 
