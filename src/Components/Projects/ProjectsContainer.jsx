@@ -9,7 +9,7 @@ class ProjectsContainer extends React.Component{
             {
                 id: 1, 
                 name: 'The Youniverse',
-                description: 'This is a space-themed social media application centered around promoting emotional intelligence.',
+                description: 'This is a space-themed social media application centered around promoting emotional intelligence',
                 technologiesUsed: ['React', 'Redux', 'React Router','Semantic UI React', 'Websockets/ActionCable', 'Ruby on Rails', 'JWT Token Authentication'],
                 frontGitHubLink: 'https://github.com/jonathanbrierre/TheYouniverse-Front',
                 backGitHubLink: 'https://github.com/jonathanbrierre/TheYouniverse-Back',
