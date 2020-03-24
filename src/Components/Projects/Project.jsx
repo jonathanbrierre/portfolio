@@ -37,7 +37,7 @@ class Project extends Component {
                         {liveDemo ? <a href = {liveDemo} rel="noopener noreferrer" target = '_blank' style ={{display:'inline-block'}} >
                             Live Demo
                         </a>:null}{' '}{' '}
-                        {videoDemo ? <a href = {videoDemo} target = '_blank' style ={{display:'inline-block'}} >
+                        {videoDemo ? <a href = {videoDemo} target = '_blank' rel="noopener noreferrer" style ={{display:'inline-block'}} >
                             Video Demo 
                         </a>:null}
                         

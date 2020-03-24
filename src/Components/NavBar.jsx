@@ -13,7 +13,7 @@ const NavBar = (props) => {
     }
 
     return (
-        <div style ={{position:'fixed', top: '0', width: '100%'}}>
+        <div style ={{position:'fixed', top: '0', width: '100%', zIndex: '3'}}>
         <Menu>
             <Menu.Item
             name='about'

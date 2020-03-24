@@ -30,5 +30,5 @@ padding-right: 10vw;
 .contentContainer{
   position: relative;
   top: 7vh;
-  z-index: -2;
+  z-index: 1
 }
