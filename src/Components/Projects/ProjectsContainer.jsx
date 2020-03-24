@@ -24,7 +24,7 @@ class ProjectsContainer extends React.Component{
                 gitHubLink: 'https://github.com/jonathanbrierre/Stocks-TechTalent',
                 // liveDemo: 'https://nycttp-stocks.netlify.com/'
             },
-            {   
+            { 
                 id: 3,
                 name: "Your Team's Time",
                 description: "A minimalist app built so managers and team leaders can create their team's weekly schedules on a spreadhseet",
