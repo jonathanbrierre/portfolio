@@ -23,6 +23,7 @@ class ProjectsContainer extends React.Component{
                 technologiesUsed: ['React', 'Redux', 'React Router', 'Ruby on Rails', 'Semantic UI React', 'JWT Token Authentication', 'IEXCloud API'],
                 gitHubLink: 'https://github.com/jonathanbrierre/Stocks-TechTalent',
                 // liveDemo: 'https://nycttp-stocks.netlify.com/'
+                videoDemo: 'https://youtu.be/f0PQrx_FJJY'
             },
             { 
                 id: 3,
