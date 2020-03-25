@@ -22,7 +22,7 @@ class Project extends Component {
                             <h4>Technologies Used:</h4> {technologiesUsed.join(', ')}
                         </Card.Description>
                         <br></br>
-                        {disclaimer ? <div><em>Disclaimer:</em> The live demo, being hosted on Heroku, will take about 15 seconds to load. Best viewed on desktop </div>: null}
+                        {disclaimer ? <div><em>Disclaimer:</em> {disclaimer}</div>: null}
                         </Card.Content>
                         <Card.Content extra>
                         {frontGitHubLink ? <a href = {frontGitHubLink} rel="noopener noreferrer" target = '_blank'>
