@@ -25,17 +25,17 @@ class ProjectsContainer extends React.Component{
                 liveDemo: 'https://nycttp-stocks.netlify.com/',
                 videoDemo: 'https://youtu.be/f0PQrx_FJJY'
             },
-            // { 
-            //     id: 3,
-            //     name: "Your Team's Time",
-            //     description: "A minimalist app built so managers and team leaders can create their team's weekly schedules on a spreadhseet",
-            //     disclaimer: 'Use desktop version for full spreadsheet functionality.',
-            //     technologiesUsed: ['React', 'Ruby on Rails', 'React Router', 'JWT Token Authentication', 'React Datasheet'],
-            //     frontGitHubLink: 'https://github.com/rexy91/mod4projectHR-frontend',
-            //     backGitHubLink: 'https://github.com/rexy91/mod4ProjectHR-backend',
-            //     liveDemo: 'https://yourteamtime.netlify.com/',
-            //     videoDemo: null
-            // },
+            { 
+                id: 3,
+                name: "Your Team's Time",
+                description: "A minimalist app built so managers and team leaders can create their team's weekly schedules on a spreadhseet",
+                disclaimer: 'Use desktop version for full spreadsheet functionality.',
+                technologiesUsed: ['React', 'Ruby on Rails', 'React Router', 'JWT Token Authentication', 'React Datasheet'],
+                frontGitHubLink: 'https://github.com/rexy91/mod4projectHR-frontend',
+                backGitHubLink: 'https://github.com/rexy91/mod4ProjectHR-backend',
+                liveDemo: 'https://yourteamtime.netlify.com/',
+                videoDemo: null
+            },
             {
                 id: 4,
                 name: 'Pineapple Express',
