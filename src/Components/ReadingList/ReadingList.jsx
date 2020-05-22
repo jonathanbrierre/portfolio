@@ -13,7 +13,7 @@ class ReadingList extends Component {
             <div>
                 <NavBar/>
                 <div className = 'contentContainer'>
-                <h2>Under Construction</h2>
+                <h2>Under Construction</h2> -
                 {bookList.map(book => <Book key = {uuidv4()}  book = {book}/>)}
                 </div>
             </div>
