@@ -38,6 +38,13 @@ const NavBar = (props) => {
             >
             Contact Info
             </Menu.Item>
+            <Menu.Item
+            name='books'
+            active={activeItem === 'reading list'}
+            onClick={handleItemClick}
+            >
+            Reading List
+            </Menu.Item>
         </Menu>
         </div>
     )
