@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
-export class Book extends Component {
+class Book extends Component {
     render() {
         return (
             <div>
-                
+                {this.props.book.title} by {this.props.book.author}
             </div>
         )
     }

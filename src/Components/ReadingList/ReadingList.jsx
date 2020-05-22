@@ -2,9 +2,10 @@ import React, { Component } from 'react'
 import bookList from './Books'
 import Book from './Book'
 import NavBar from '../NavBar'
+import {v4 as uuidv4} from 'uuid'
 
 class ReadingList extends Component {
-
+    
 
     
     render() {
@@ -12,9 +13,8 @@ class ReadingList extends Component {
             <div>
                 <NavBar/>
                 <div className = 'contentContainer'>
-                Under Construction
-                {bookList.map(book => <Book book = {book}/>)}
-
+                <h2>Under Construction</h2>
+                {bookList.map(book => <Book key = {uuidv4()}  book = {book}/>)}
                 </div>
             </div>
         )
