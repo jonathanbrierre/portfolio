@@ -14,8 +14,20 @@ const bookList = [
         author: 'David Deida'
     },
     {
-        title: 'How To Win Friends and Influence People In The Digital Age',
-        author: 'Dale Carnegie & Associates'
+        title: 'The Ideal Team Player',
+        author: 'Patrick Lencioni'
+    },
+    {
+        title: 'Tribal Leadership',
+        author: 'Dave Logan, John King, & Halee Fischer-Wright'
+    },
+    {
+        title: 'How To Win Friends and Influence People',
+        author: 'Dale Carnegie'
+    },
+    {
+        title: 'Attitude 101',
+        author: 'John C. Maxwell'
     },
     {
         title: 'Start With Why',
@@ -34,10 +46,6 @@ const bookList = [
         author: 'Ram Dass'
     },
     {
-        title: 'Tribal Leadership',
-        author: 'Dave Logan, John King, & Halee Fischer-Wright'
-    },
-    {
         title: 'The Power of Now',
         author: 'Eckhart Tolle'
     },
@@ -52,10 +60,6 @@ const bookList = [
     {
         title: 'Think and Grow Rich',
         author: 'Napoleon Hill'
-    },
-    {
-        title: 'Practice of Brahmacharya',
-        author: 'Sri Swami Sivananda'
     },
     {
         title: "Cupid's Poisoned Arrow",
@@ -74,16 +78,12 @@ const bookList = [
         author: 'Herman Hesse'
     },
     {
-        title: 'The Monk Who Sold His Ferrari',
-        author: 'Robin S Sharma'
-    },
-    {
         title: 'Fire In The Belly',
         author: 'Sam Keen'
     },
     {
         title: 'The Subtle Art of Not Giving a F*ck',
-        authr: 'Mark Manson'
+        author: 'Mark Manson'
     },
     {
         title: 'The Four Agreements',
@@ -117,7 +117,7 @@ const bookList = [
         title: 'A More Complete Beast',
         author: 'Jack Donovan'
     },
-    ,
+    
     {
         title: 'Sell Or Be Sold',
         author: 'Grant Cardone'
@@ -135,20 +135,8 @@ const bookList = [
         author: 'Robert Greene'
     },
     {
-        title: 'Attitude 101',
-        author: 'John C. Maxwell'
-    },
-    {
-        title: 'The Metaphorical Suicide',
-        author: 'Morgue'
-    },
-    {
         title: 'Economy of Truth',
         author: 'Vizi Andreu'
-    },
-    {
-        title: 'How To Be A 3% Man',
-        author: 'Corey Wayne'
     },
     {
         title: 'Sapiens - A Brief History of Humankind',
@@ -157,10 +145,6 @@ const bookList = [
     {
         title: 'Cashflow Quadrant',
         author: 'Robert Kiyosaki'
-    },
-    {
-        title: 'The Ideal Team Player',
-        author: 'Patrick Lencioni'
     },
     {
         title: 'Flow',

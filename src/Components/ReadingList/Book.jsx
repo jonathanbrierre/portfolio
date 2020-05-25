@@ -11,7 +11,8 @@ class Book extends Component {
             description:'',
             imageLinks: {
                 thumbnail:''
-            }
+            },
+            infoLink: ''
         }
     }
 
@@ -36,9 +37,9 @@ class Book extends Component {
 
     render() {
         return (
-            <div>
-                <span onClick ={this.searchBook} >{this.props.book.title} by {this.props.book.author}</span>
-                <BookModal closeModal ={this.closeModal} open={this.state.open} bookData = {this.state.bookData} title = {this.props.book.title}/>
+            <div style ={{padding: '1vh', textAlign: 'center' }}>
+                <h5 style = {{color: 'blue', cursor: 'pointer'}} onClick ={this.searchBook} >{this.props.book.title} by {this.props.book.author}</h5>
+                <BookModal closeModal ={this.closeModal} open={this.state.open} bookData = {this.state.bookData} title = {this.props.book.title} author = {this.props.book.author}/>
             </div>
         )
     }
