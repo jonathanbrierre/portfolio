@@ -6,8 +6,6 @@ import {v4 as uuidv4} from 'uuid'
 
 class ReadingList extends Component {
     
-
-    
     render() {
         return (
             <div>

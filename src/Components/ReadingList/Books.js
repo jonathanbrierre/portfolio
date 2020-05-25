@@ -2,6 +2,10 @@
 
 const bookList = [
     {
+        title: 'A Short Handbook For Happiness',
+        author: 'me 🥳'
+    },
+    {
         title: 'King, Warrior, Magician, Lover',
         author: ' Robert Moore & Douglas Gillette'
     },
@@ -72,10 +76,6 @@ const bookList = [
     {
         title: 'The Monk Who Sold His Ferrari',
         author: 'Robin S Sharma'
-    },
-    {
-        title: 'A Short Handbook For Happiness',
-        author: 'me 🥳'
     },
     {
         title: 'Fire In The Belly',
