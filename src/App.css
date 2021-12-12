@@ -32,3 +32,8 @@ padding-right: 10vw;
   top: 7vh;
   z-index: 1
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,9 +1,31 @@
-
-
 const bookList = [
     {
         title: 'A Short Handbook For Happiness',
         author: 'me 🥳'
+    },
+    {
+        title: 'The Goal',
+        author: 'Eliyahu M. Goldratt'
+    },
+    {
+        title: 'The Personal MBA: Master The Art of Business',
+        author: 'Josh Kaufman'
+    },
+    {
+        title: "Atomic Habits",
+        author: 'James Clear'
+    },
+    {
+        title: "Principles",
+        author: "Ray Dalio"
+    },
+    {
+        title: "Your Next Five Moves",
+        author: "Patrick Bet-David"
+    },
+    {
+        title: "Doing The Impossible",
+        author: "Patrick Bet-David"
     },
     {
         title: 'King, Warrior, Magician, Lover',
@@ -123,6 +145,10 @@ const bookList = [
         author: 'Grant Cardone'
     },
     {
+        title: 'The 10X Rule',
+        author: 'Grant Cardone'
+    },
+    {
         title: 'The Wait',
         author: 'Devon Franklin & Megan Good'
     },
@@ -161,6 +187,22 @@ const bookList = [
     {
         title: 'Joy, Inc.',
         author: 'Richard Sheridan'
+    },
+    {
+        title: 'The New Great Depression',
+        author: 'James Rickards'
+    },
+    {
+        title: 'The Art of Loving',
+        author: 'Erich Fromm'
+    },
+    {
+        title: 'Permission to Feel',
+        author: 'Marc Brackett'
+    },
+    {
+        title: 'Empire of Illusion',
+        author: 'Chris Hedges'
     }
 
 ]

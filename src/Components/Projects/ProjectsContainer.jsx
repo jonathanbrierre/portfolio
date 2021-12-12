@@ -7,6 +7,14 @@ class ProjectsContainer extends React.Component{
     state = {
         projects: [ 
             {
+                id: 6,
+                name: 'Feelings Web (Leap Forward Community)',
+                description: "A mobile friendly app to share your feelings! (Be sure to watch the demo video to see the chrome extension functionality)",
+                technologiesUsed: ['React', 'Context API', 'React Native', 'Mapbox GL', 'Ruby on Rails', 'Chrome Extension API'],
+                liveDemo: 'https://wefeel.pause.us/',
+                videoDemo: 'https://www.youtube.com/watch?v=aMtFDWzsazU'
+            },
+            {
                 id: 1, 
                 name: 'The Youniverse',
                 description: 'This is a space-themed social media application centered around promoting emotional intelligence',
