@@ -5,7 +5,21 @@ import Project from './Project'
 class ProjectsContainer extends React.Component{
 
     state = {
-        projects: [ 
+        projects: [
+            {
+                id: 8,
+                name: 'Agile Dezign (Integral Agile)',
+                description: 'The Agile management tool of the future. (Launch early 2022!)',
+                technologiesUsed: ['React', 'Redux', 'Websockets', 'Ruby On Rails'],
+                liveDemo: 'https://integralagile.com/agile-dezign'
+            },
+            {
+                id: 7,
+                name: 'Agile Clock (Integral Agile)',
+                description: 'An interactive clock showcasing phases of team and organizational management.',
+                technologiesUsed: ['React Hooks', 'Redux Hooks', 'SASS'],
+                liveDemo: 'https://integralagile.com/holons/cadence'
+            },
             {
                 id: 6,
                 name: 'Feelings Web (Leap Forward Community)',
