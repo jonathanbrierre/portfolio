@@ -16,8 +16,9 @@ class BookModal extends Component {
     render() {
         return (
         <Modal open={this.props.open}>
-            <Modal.Header style={{display: 'flex', justifyContent: 'space-between'}}>{this.props.title} <Button style ={{backgroundColor: 'red', color:'black'}}onClick = {this.props.closeModal}>Close</Button></Modal.Header>
-                
+            <Modal.Header style={{display: 'flex', justifyContent: 'space-between'}}>{this.props.title}
+              <Button style ={{backgroundColor: 'red', color:'black'}}onClick = {this.props.closeModal}>Close</Button>
+            </Modal.Header>
             <Modal.Content image>
             <Image wrapped size='big' src={this.bookImage()} />
             <Modal.Description>
@@ -25,7 +26,7 @@ class BookModal extends Component {
                 <strong>Description:</strong> {this.props.bookData.description} 
                 <br></br> 
                 <br></br>
-                <a href ={this.props.bookData.infoLink} target = '_blank'>More Info</a>
+                <a href ={this.props.bookData.infoLink} target = '_blank' rel="noopener noreferrer">More Info</a>
                 <br></br>
                 <br></br>
             </Modal.Description>
