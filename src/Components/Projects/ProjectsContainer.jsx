@@ -7,13 +7,6 @@ class ProjectsContainer extends React.Component{
     state = {
         projects: [
             {
-                id: 8,
-                name: 'Agile Dezign (Integral Agile)',
-                description: 'The Agile management tool of the future. (Launch early 2022!)',
-                technologiesUsed: ['React', 'Redux', 'Websockets', 'Ruby On Rails'],
-                liveDemo: 'https://integralagile.com/agile-dezign'
-            },
-            {
                 id: 7,
                 name: 'Agile Clock (Integral Agile)',
                 description: 'An interactive clock showcasing phases of team and organizational management.',
@@ -27,6 +20,23 @@ class ProjectsContainer extends React.Component{
                 technologiesUsed: ['React', 'Context API', 'React Native', 'Mapbox GL', 'Ruby on Rails', 'Chrome Extension API'],
                 liveDemo: 'https://wefeel.pause.us/',
                 videoDemo: 'https://www.youtube.com/watch?v=aMtFDWzsazU'
+            },
+            {
+                id: 8,
+                name: 'Agile Dezign (Integral Agile)',
+                description: 'The Agile management tool of the future. (Launch early 2022!)',
+                technologiesUsed: ['React', 'Redux', 'Websockets', 'Ruby On Rails'],
+                liveDemo: 'https://integralagile.com/agile-dezign'
+            },
+            {
+                id: 4,
+                name: 'Pineapple Express',
+                description: 'Just your ordinary pineapple-themed apparel store',
+                disclaimer: 'As this application loads from a Heroku server, expect a brief wait while the app initially loads. Best viewed on desktop',
+                technologiesUsed: ['Ruby on Rails', 'HTML/CSS', 'BCrypt Cookie Authentication', 'Action Mailer'],
+                gitHubLink: 'https://github.com/jonathanbrierre/Pineapple-Express',
+                liveDemo: 'https://pineapple-express.herokuapp.com/',
+                videoDemo: 'https://www.youtube.com/watch?v=inwS2mZT8SU'
             },
             {
                 id: 1, 
@@ -57,16 +67,6 @@ class ProjectsContainer extends React.Component{
                 backGitHubLink: 'https://github.com/rexy91/mod4ProjectHR-backend',
                 liveDemo: 'https://yourteamtime.netlify.com/',
                 videoDemo: null
-            },
-            {
-                id: 4,
-                name: 'Pineapple Express',
-                description: 'Just your ordinary pineapple-themed apparel store',
-                disclaimer: 'As this application loads from a Heroku server, expect a brief wait while the app initially loads. Best viewed on desktop',
-                technologiesUsed: ['Ruby on Rails', 'HTML/CSS', 'BCrypt Cookie Authentication', 'Action Mailer'],
-                gitHubLink: 'https://github.com/jonathanbrierre/Pineapple-Express',
-                liveDemo: 'https://pineapple-express.herokuapp.com/',
-                videoDemo: 'https://www.youtube.com/watch?v=inwS2mZT8SU'
             },
             {
                 id: 5,
