@@ -12,7 +12,7 @@ const About = () => {
                 <div className = 'textContainer'>
                     
                     <div className = 'aboutText'> My name is Jonathan Brierre. Thank you for taking the time to check out my portfolio. <br></br> <br></br>
-                    I am Full-Stack with 2+ years experience. I love coding performant frontend applications with React and Redux, as well as the MVC architecture of Ruby on Rails.
+                    I love coding performant frontend applications with React and Redux, as well as the MVC architecture of Ruby on Rails.
                     <br>
                     </br>
                     If you feel I can contribute in the achievement of your goals, feel free to contact me <Link to ='/contact'>here</Link> 

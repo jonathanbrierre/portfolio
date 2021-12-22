@@ -4,7 +4,7 @@ import { Card, Image } from 'semantic-ui-react'
 
 class Project extends Component {
     render() {
-        let {name, description, technologiesUsed, frontGitHubLink, backGitHubLink, liveDemo, videoDemo, gitHubLink, disclaimer } = this.props.project 
+        let {name, description, technologiesUsed, frontGitHubLink, backGitHubLink, liveDemo, videoDemo, gitHubLink, disclaimer, preview } = this.props.project 
         return (
             <div style = {{textAlign: 'center'}}>
                 <br></br>
@@ -40,7 +40,10 @@ class Project extends Component {
                         {videoDemo ? <a href = {videoDemo} target = '_blank' rel="noopener noreferrer" style ={{display:'inline-block'}} >
                             Video Demo 
                         </a>:null}
-                        
+                        {preview ? <a href = {videoDemo} target = '_blank' rel="noopener noreferrer" style ={{display:'inline-block'}} >
+                            Preview
+                        </a>:null}
+                    
                         </Card.Content>
                     </Card>
                 </div>

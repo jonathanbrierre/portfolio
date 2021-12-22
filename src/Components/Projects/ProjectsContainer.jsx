@@ -25,13 +25,13 @@ class ProjectsContainer extends React.Component{
                 id: 8,
                 name: 'Agile Dezign (Integral Agile)',
                 description: 'The Agile management tool of the future. (Launch early 2022!)',
-                technologiesUsed: ['React', 'Redux', 'Websockets', 'Ruby On Rails'],
-                liveDemo: 'https://integralagile.com/agile-dezign'
+                technologiesUsed: ['React', 'Redux', 'Websockets', 'Ruby On Rails', "Redis", "Sidekiq"],
+                preview: 'https://integralagile.com/agile-dezign'
             },
             {
                 id: 4,
                 name: 'Pineapple Express',
-                description: 'Just your ordinary pineapple-themed apparel store',
+                description: 'A super exclusive pineapple apparel store.',
                 disclaimer: 'As this application loads from a Heroku server, expect a brief wait while the app initially loads. Best viewed on desktop',
                 technologiesUsed: ['Ruby on Rails', 'HTML/CSS', 'BCrypt Cookie Authentication', 'Action Mailer'],
                 gitHubLink: 'https://github.com/jonathanbrierre/Pineapple-Express',
@@ -41,21 +41,12 @@ class ProjectsContainer extends React.Component{
             {
                 id: 1, 
                 name: 'The Youniverse',
-                description: 'This is a space-themed social media application centered around promoting emotional intelligence',
+                description: 'A space-themed social media application centered around promoting emotional intelligence',
                 technologiesUsed: ['React', 'Redux', 'React Router','Semantic UI React', 'Websockets/ActionCable', 'Ruby on Rails', 'JWT Token Authentication'],
                 frontGitHubLink: 'https://github.com/jonathanbrierre/TheYouniverse-Front',
                 backGitHubLink: 'https://github.com/jonathanbrierre/TheYouniverse-Back',
                 liveDemo: null,
                 videoDemo: 'https://www.youtube.com/watch?v=93rDLcB3dKI&t=5s'
-            },
-            {
-                id: 2,
-                name: 'Stocks App',
-                description: "A mock stock buying application where a user searches for live stocks to be added to a portfolio and audit pages",
-                technologiesUsed: ['React', 'Redux', 'React Router', 'Ruby on Rails', 'Semantic UI React', 'JWT Token Authentication', 'IEXCloud API'],
-                gitHubLink: 'https://github.com/jonathanbrierre/Stocks-TechTalent',
-                liveDemo: 'https://nycttp-stocks.netlify.com/',
-                videoDemo: 'https://youtu.be/f0PQrx_FJJY'
             },
             { 
                 id: 3,
@@ -76,6 +67,15 @@ class ProjectsContainer extends React.Component{
                 gitHubLink: 'https://github.com/elikantor/Read-n-Review',
                 liveDemo: 'https://read-n-review-frontend.herokuapp.com/',
                 videoDemo: 'https://www.youtube.com/watch?v=vBrI-09MMok&t=1s'
+            },
+            {
+                id: 2,
+                name: 'Stocks App',
+                description: "A mock stock buying application where a user searches for live stocks to be added to a portfolio and audit pages",
+                technologiesUsed: ['React', 'Redux', 'React Router', 'Ruby on Rails', 'Semantic UI React', 'JWT Token Authentication', 'IEXCloud API'],
+                gitHubLink: 'https://github.com/jonathanbrierre/Stocks-TechTalent',
+                liveDemo: 'https://nycttp-stocks.netlify.com/',
+                videoDemo: 'https://youtu.be/f0PQrx_FJJY'
             }
         ]
     }
