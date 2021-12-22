@@ -40,7 +40,7 @@ class Project extends Component {
                         {videoDemo ? <a href = {videoDemo} target = '_blank' rel="noopener noreferrer" style ={{display:'inline-block'}} >
                             Video Demo 
                         </a>:null}
-                        {preview ? <a href = {videoDemo} target = '_blank' rel="noopener noreferrer" style ={{display:'inline-block'}} >
+                        {preview ? <a href = {preview} target = '_blank' rel="noopener noreferrer" style ={{display:'inline-block'}} >
                             Preview
                         </a>:null}
                     
