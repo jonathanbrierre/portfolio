@@ -66,7 +66,7 @@ const bookList = [
     {
         title: 'The 6 Pillars of Self-Esteem',
         author: 'Nathaniel Branden'
-    }
+    },
     {
         title: 'Start With Why',
         author: 'Simon Sinek'
