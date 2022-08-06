@@ -9,6 +9,7 @@ class ProjectsContainer extends React.Component{
             {
                 id: 7,
                 name: 'Agile Clock (Integral Agile)',
+                disclaimer: 'Use desktop version for full functionality.',
                 description: 'An interactive clock showcasing phases of team and organizational management.',
                 technologiesUsed: ['React Hooks', 'Redux Hooks', 'SASS'],
                 liveDemo: 'https://integralagile.com/holons/cadence'

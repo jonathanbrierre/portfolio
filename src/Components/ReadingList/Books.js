@@ -12,6 +12,14 @@ const bookList = [
         author: 'Josh Kaufman'
     },
     {
+        title: 'Power vs Force',
+        author: 'David Hawkins, M.D., Ph.D.'
+    },
+    {
+        title: 'Letting Go',
+        author: 'David Hawkins, M.D., Ph.D.'
+    },
+    {
         title: "Atomic Habits",
         author: 'James Clear'
     },
@@ -29,11 +37,15 @@ const bookList = [
     },
     {
         title: 'King, Warrior, Magician, Lover',
-        author: ' Robert Moore & Douglas Gillette'
+        author: 'Robert Moore & Douglas Gillette'
     },
     {
         title: 'The Way of The Superior Man',
         author: 'David Deida'
+    },
+    {
+        title: 'The Rational Male',
+        author: 'Rollo Tomassi'
     },
     {
         title: 'The Ideal Team Player',
@@ -51,6 +63,10 @@ const bookList = [
         title: 'Attitude 101',
         author: 'John C. Maxwell'
     },
+    {
+        title: 'The 6 Pillars of Self-Esteem',
+        author: 'Nathaniel Branden'
+    }
     {
         title: 'Start With Why',
         author: 'Simon Sinek'
@@ -82,10 +98,6 @@ const bookList = [
     {
         title: 'Think and Grow Rich',
         author: 'Napoleon Hill'
-    },
-    {
-        title: "Cupid's Poisoned Arrow",
-        author: 'Marnia Robinson'
     },
     {
         title: 'The Alchemist',
@@ -139,7 +151,6 @@ const bookList = [
         title: 'A More Complete Beast',
         author: 'Jack Donovan'
     },
-    
     {
         title: 'Sell Or Be Sold',
         author: 'Grant Cardone'
@@ -147,10 +158,6 @@ const bookList = [
     {
         title: 'The 10X Rule',
         author: 'Grant Cardone'
-    },
-    {
-        title: 'The Wait',
-        author: 'Devon Franklin & Megan Good'
     },
     {
         title: 'The 48 Laws of Power',
@@ -199,6 +206,10 @@ const bookList = [
     {
         title: 'Permission to Feel',
         author: 'Marc Brackett'
+    },
+    {
+        title: 'Social Intelligence',
+        author: 'Daniel Goleman'
     },
     {
         title: 'Empire of Illusion',
