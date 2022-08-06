@@ -9,7 +9,6 @@ class Contact extends Component {
                 <div className = 'contactDiv contentContainer' >
                     <h1> Contact Info</h1>
                     <h3>Email:</h3> jonathanbrierre33@gmail.com
-                    <h3>Phone :</h3> (347) 572-9598
                     <br></br>
                     <br></br>
                     <a href = 'https://www.linkedin.com/in/jonathan-brierre-674251140/'  rel="noopener noreferrer" target= '_blank'> <h3>Linked In</h3></a>
