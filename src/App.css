@@ -38,3 +38,7 @@ padding-right: 10vw;
   display: flex;
   justify-content: space-between;
 }
+
+.logo {
+  height: 300px;
+}

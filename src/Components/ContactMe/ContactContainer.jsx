@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import logo from '../../images/rc-logo.png'
 import NavBar from '../NavBar'
 
 class Contact extends Component {
@@ -18,6 +19,8 @@ class Contact extends Component {
                     <br></br>
 
                     <h4>It's always a pleasure to be of great service</h4>
+
+                    <img src={logo} alt="" className="logo"/>
                 </div>
             </div>
         )
