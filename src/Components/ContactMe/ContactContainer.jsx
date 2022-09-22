@@ -7,19 +7,17 @@ class Contact extends Component {
             <div>
                 <NavBar/>
                 <div className = 'contactDiv contentContainer' >
-                    <h1> Contact Info</h1>
-                    <h3>Email:</h3> jonathanbrierre33@gmail.com
+                    <h1> Network With Me!</h1>
+                    <h4>Click or tap something to do. </h4>
                     <br></br>
+                    <a href = 'https://calendly.com/jonathanbrierre/one-on-one'  rel="noopener noreferrer" target= '_blank'> <h3>Book a call</h3></a>
                     <br></br>
-                    <a href = 'https://www.linkedin.com/in/jonathan-brierre-674251140/'  rel="noopener noreferrer" target= '_blank'> <h3>Linked In</h3></a>
+                    <a href = 'https://www.amazon.com/Jonathan-Brierre/e/B07YHVJ6X3?ref_=dbs_p_ebk_r00_abau_000000' rel="noopener noreferrer" target = '_blank'><h3>Buy my book for a dollar</h3></a>
                     <br></br>
-                    <a href = 'https://medium.com/@jonathanbrierre' rel="noopener noreferrer" target = '_blank'><h3>Medium Blog</h3></a>
+                    <a href = 'https://dot.cards/jonathanbrierre?a=user%2Fjxdazichkhxiqtwcef3mifi6a%2Fc%2Fbl' rel="noopener noreferrer" target = '_blank'><h3>Business card</h3></a>
                     <br></br>
-                    <a href = 'https://www.amazon.com/Jonathan-Brierre/e/B07YHVJ6X3?ref_=dbs_p_ebk_r00_abau_000000' rel="noopener noreferrer" target = '_blank'><h3>Buy My Book!</h3></a>
-                    <br></br>
-                    <a href = 'https://github.com/jonathanbrierre' rel="noopener noreferrer" target = '_blank'><h3>GitHub Profile</h3></a>
-                    <br></br>
-                    
+
+                    <h4>It's always a pleasure to be of great service</h4>
                 </div>
             </div>
         )

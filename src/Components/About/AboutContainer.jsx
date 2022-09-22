@@ -12,10 +12,8 @@ const About = () => {
                 <div className = 'textContainer'>
                     
                     <div className = 'aboutText'> My name is Jonathan Brierre. Thank you for taking the time to check out my website. <br></br> <br></br>
-                    I love coding, coaching, and learning about life. 
-                    <br>
-                    </br>
-                    If you feel I can contribute in the achievement of your goals, feel free to contact me <Link to ='/contact'>here</Link> 
+                    I love helping people and companies actualize their full potential. 
+                    If you feel I can contribute in the achievement of your goals, feel free to contact me <Link to ='/network'>here</Link> 
                     </div> 
                 </div>
             </div>

@@ -8,6 +8,15 @@ class ProjectsContainer extends React.Component{
         projects: [
             {
                 id: 7,
+                name: 'Feelings Web (Leap Forward Community)',
+                description: "A mobile friendly app to share your feelings! (Be sure to watch the demo video to see the chrome extension functionality)",
+                technologiesUsed: ['React', 'Context API', 'React Native', 'Mapbox GL', 'Ruby on Rails', 'Chrome Extension API'],
+                disclaimer: 'May take a few seconds to load',
+                liveDemo: 'https://wefeel.pause.us/',
+                videoDemo: 'https://www.youtube.com/watch?v=aMtFDWzsazU'
+            },
+            {
+                id: 6,
                 name: 'Agile Clock (Integral Agile)',
                 disclaimer: 'Use desktop version for full functionality.',
                 description: 'An interactive clock showcasing phases of team and organizational management.',
@@ -15,17 +24,9 @@ class ProjectsContainer extends React.Component{
                 liveDemo: 'https://integralagile.com/holons/cadence'
             },
             {
-                id: 6,
-                name: 'Feelings Web (Leap Forward Community)',
-                description: "A mobile friendly app to share your feelings! (Be sure to watch the demo video to see the chrome extension functionality)",
-                technologiesUsed: ['React', 'Context API', 'React Native', 'Mapbox GL', 'Ruby on Rails', 'Chrome Extension API'],
-                liveDemo: 'https://wefeel.pause.us/',
-                videoDemo: 'https://www.youtube.com/watch?v=aMtFDWzsazU'
-            },
-            {
                 id: 8,
                 name: 'Agile Dezign (Integral Agile)',
-                description: 'The Agile management tool of the future. (Launch early 2022!)',
+                description: 'The Agile management tool of the future. (Launch early 2023!)',
                 technologiesUsed: ['React', 'Redux', 'Websockets', 'Ruby On Rails', "Redis", "Sidekiq"],
                 preview: 'https://integralagile.com/agile-dezign'
             },
@@ -91,6 +92,7 @@ class ProjectsContainer extends React.Component{
             <div>
                 <NavBar/>
                 <div className = 'contentContainer'>
+                    <h2>Past Software Projects</h2>
                     {this.renderProjects()}
                     <div style={{padding: '3vh'}}></div>
                     <footer style ={{color: 'white', backgroundColor:'black', textAlign: 'center', padding: '1vh', position:'fixed', zIndex: '2', left: '0', bottom: '0', width: '100%' }}> <p>This site was built using React, React Router, CSS, and Semantic UI React</p></footer>
