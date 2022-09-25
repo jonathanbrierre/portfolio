@@ -18,7 +18,7 @@ class Contact extends Component {
                     <a href = 'https://dot.cards/jonathanbrierre?a=user%2Fjxdazichkhxiqtwcef3mifi6a%2Fc%2Fbl' rel="noopener noreferrer" target = '_blank'><h3>View business card</h3></a>
                     <br></br>
 
-                    <h4>It's always a pleasure to be of great service</h4>
+                    <h4 className="pleasure-header">It's always a pleasure to be of great service</h4>
 
                     <img src={logo} alt="" className="logo"/>
                 </div>
