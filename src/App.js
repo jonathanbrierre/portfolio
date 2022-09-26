@@ -13,6 +13,7 @@ function App() {
         <Route exact path = '/' render ={routerProps => <About/>} />
         <Route exact path = '/about' render ={routerProps => <About/>} />
         <Route exact path = '/network' render = {routerProps => <Contact/> } />
+        <Route exact path = '/mybook' render = {routerProps => <Contact/> } />
         <Route exact path = '/projects' render = {routerProps => <ProjectsContainer/> } />
         <Route exact path = '/books' render = {routerProps => <ReadingList/> } />
       </Switch>
