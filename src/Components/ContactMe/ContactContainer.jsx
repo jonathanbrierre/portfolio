@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import NavBar from '../NavBar'
-import vid from './principles.mp4'
+import ReactPlayer from 'react-player'
 
 class Contact extends Component {
     render() {
@@ -9,7 +9,7 @@ class Contact extends Component {
                 <NavBar/>
                 <div className = 'contactDiv contentContainer' >
                     <h1>7 Principles to Manifestation</h1>
-                    <video width='300' height='575' src={vid} controls='controls'/>
+                    <ReactPlayer url="https://www.youtube.com/watch?v=Yph_ty-Eq1Q" width='337px' height='600px'/>
                     <br/>
                     <a className="book-call-button" role="button" href = 'https://calendly.com/jonathanbrierre/one-on-one'  rel="noopener noreferrer" target= '_blank'> <h3>Book a FREE 1 HR Coaching Call</h3></a>
                     <br/>
