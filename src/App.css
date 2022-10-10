@@ -9,9 +9,9 @@
 }
 
 .aboutText{
-padding-top: 5vh;
-padding-left: 10vw;
-padding-right: 10vw;
+  padding-top: 5vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 
 .pleasure-header {
@@ -19,7 +19,6 @@ padding-right: 10vw;
 }
 
 .contactDiv{
-  padding-top: 5vh;
   text-align: center;
 }
 
@@ -36,6 +35,9 @@ padding-right: 10vw;
   top: 7vh;
   z-index: 1;
   text-align:center;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
 }
 
 .header {
@@ -45,4 +47,24 @@ padding-right: 10vw;
 
 .logo {
   height: 300px;
+}
+
+.book-call-button {
+  color: white;
+}
+
+.book-call-button h3 {
+  background-color: #4182C4;
+  padding: 10px 10px;
+  border-radius: 15px;
+}
+
+
+.ui.menu {
+  display:flex;
+}
+
+.ui.menu .item {
+  flex: 1;
+  justify-content: center;
 }

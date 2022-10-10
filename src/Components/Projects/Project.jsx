@@ -6,7 +6,7 @@ class Project extends Component {
     render() {
         let {name, description, technologiesUsed, frontGitHubLink, backGitHubLink, liveDemo, videoDemo, gitHubLink, disclaimer, preview } = this.props.project 
         return (
-            <div style = {{textAlign: 'center'}}>
+            <div style = {{textAlign: 'center', width: '100%'}}>
                 <br></br>
                 <div style ={{width: '80%', marginLeft: 'auto', marginRight: 'auto'}}>
                     <Card fluid className ='projectCard'>

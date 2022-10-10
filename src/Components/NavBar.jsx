@@ -32,18 +32,18 @@ const NavBar = (props) => {
             </Menu.Item>
 
             <Menu.Item
-            name='network'
-            active={activeItem === 'network'}
+            name='manifest'
+            active={activeItem === 'manifest'}
             onClick={handleItemClick}
             >
-            Network
+            Manifest
             </Menu.Item>
             <Menu.Item
             name='books'
             active={activeItem === 'reading list'}
             onClick={handleItemClick}
             >
-            Reading List
+            Books
             </Menu.Item>
         </Menu>
         </div>
