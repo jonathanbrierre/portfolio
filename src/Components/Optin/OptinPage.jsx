@@ -19,13 +19,11 @@ function OptinPage () {
 						<h2 className="person-name">Jonathan Brierre</h2>
 					</div>
 					<div className="person-credentials">
-						<p>Manifestation Coach</p>
-						<p>Amazon Best-Selling Author</p>
-						<p>CEO and Engineer</p>
-						<p>Over 2300+ served and impacted</p>
+						<p>Learn how 2500+ people have leveraged my system to radically transform their lives</p>
+						<p>Sign up below to get a system overview, plus a FREE coaching call to begin integrating it!</p>
 					</div>
 					<div className='button-container'>
-						<button className="book-btn" onClick={handleButtonClick}>Book a Call</button>
+						<button className="book-btn" onClick={handleButtonClick}>Click Me to Sign Up</button>
 					</div>
 				</div>
 			</div>
