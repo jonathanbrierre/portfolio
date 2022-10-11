@@ -12,7 +12,6 @@ function OptinPage () {
 
 	return (
 		<div className="optin-page">
-
 			<div className="optin-header">
 				<div className='person-box'/>
 				<div className='person-info'>

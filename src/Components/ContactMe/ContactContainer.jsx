@@ -13,7 +13,6 @@ class Contact extends Component {
                     <ReactPlayer url="https://www.youtube.com/watch?v=Yph_ty-Eq1Q" width='337px' height='540px'/>
                     <br/>
                     <a href = 'https://www.amazon.com/Jonathan-Brierre/e/B07YHVJ6X3?ref_=dbs_p_ebk_r00_abau_000000' rel="noopener noreferrer" target = '_blank'><h3>Find my book on Amazon</h3></a>
-                    <h4 className="pleasure-header">It's always a pleasure to be of great service</h4>
                 </div>
             </div>
         )
