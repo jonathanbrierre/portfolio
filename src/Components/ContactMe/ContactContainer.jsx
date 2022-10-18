@@ -8,7 +8,7 @@ class Contact extends Component {
             <div>
                 <NavBar/>
                 <div className = 'contactDiv contentContainer' >
-                    <a className="book-call-button" role="button" href = 'https://calendly.com/jonathanbrierre/one-on-one'  rel="noopener noreferrer" target= '_blank'> <h3>Book a FREE 1 HR Coaching Call</h3></a>
+                    <a className="book-call-button" role="button" href = 'https://calendly.com/jonathanbrierre/one-on-one'  rel="noopener noreferrer" target= '_blank'> <h3>Book a FREE 1 HR Consultation</h3></a>
                     <h1>7 Principles to Manifestation</h1>
                     <ReactPlayer url="https://www.youtube.com/watch?v=Yph_ty-Eq1Q" width='337px' height='540px'/>
                     <br/>
