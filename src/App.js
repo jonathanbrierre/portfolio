@@ -5,7 +5,9 @@ import About from './Components/About/AboutContainer';
 import Contact from './Components/ContactMe/ContactContainer';
 import ProjectsContainer from './Components/Projects/ProjectsContainer';
 import ReadingList from './Components/ReadingList/ReadingList';
-import OptinPage from  './Components/Optin/OptinPage'
+import OptinPage from  './Components/Optin/OptinPage';
+import HandbookPage from './Components/Handbook/HandbookPage';
+
 function App() {
   return (
     <div className="App">
@@ -14,6 +16,7 @@ function App() {
         <Route exact path = '/about' render ={routerProps => <About/>} />
         <Route exact path = '/network' render = {routerProps => <Contact/> } />
         <Route exact path = '/manifest' render = {routerProps => <Contact/> } />
+        <Route exact path = '/handbook' render = {routerProps => <HandbookPage/> } />
         <Route exact path = '/me' render = {routerProps => <Contact/> } />
         <Route exact path = '/projects' render = {routerProps => <ProjectsContainer/> } />
         <Route exact path = '/books' render = {routerProps => <ReadingList/> } />
