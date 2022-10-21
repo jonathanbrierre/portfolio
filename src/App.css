@@ -185,10 +185,13 @@
 .blh-header {
   display:flex;
   flex-direction: column;
+  background-color: black;
+  padding-bottom: 20px;
 }
 
 .bl-container {
-  height: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
   background-color: black;
   font-family: Titillium Web, Arial, sans-serif;
   font-weight: 200;
@@ -227,11 +230,11 @@
   border: none;
   padding: 10px;
   font-size: 18px;
-  border-radius: 10px
+  border-radius: 10px;
+  color: black
 }
 
 .bl-body {
-  margin-top: 20px;
   text-align: center;
   border-left: 20px solid black;
   border-right: 20px solid black;
