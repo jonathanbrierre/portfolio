@@ -231,11 +231,14 @@
 }
 
 .bl-body {
-  background-color: white;
   margin-top: 20px;
   text-align: center;
   border-left: 20px solid black;
   border-right: 20px solid black;
+}
+
+.reviews-container {
+  background-color: white;
   padding-top: 10px;
 }
 
