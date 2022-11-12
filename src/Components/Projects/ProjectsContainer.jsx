@@ -1,5 +1,4 @@
 import React from 'react'
-import NavBar from '../NavBar'
 import Project from './Project'
 
 class ProjectsContainer extends React.Component{
@@ -90,7 +89,6 @@ class ProjectsContainer extends React.Component{
     render(){
         return (
             <div>
-                <NavBar/>
                 <div className = 'contentContainer'>
                     <h2>Past Software Projects</h2>
                     {this.renderProjects()}

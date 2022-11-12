@@ -1,6 +1,8 @@
-import React from 'react';
-import {Switch, Route} from 'react-router-dom'
+import React, {useState, useLayoutEffect} from 'react';
+import {Switch, Route, withRouter} from 'react-router-dom'
 import './App.css';
+import NavigationOverlay from './Components/Navigation/NavigationOverlay';
+import NavBar from './Components/Navigation/NavBar';
 import About from './Components/About/AboutContainer';
 import Contact from './Components/ContactMe/ContactContainer';
 import ProjectsContainer from './Components/Projects/ProjectsContainer';
@@ -8,9 +10,29 @@ import ReadingList from './Components/ReadingList/ReadingList';
 import OptinPage from  './Components/Optin/OptinPage';
 import HandbookPage from './Components/Handbook/HandbookPage';
 
-function App() {
+function App({location}) {
+  const [openNav, setOpenNav] = useState(false);
+  const [showNav, setShowNav] = useState(true)
+
+  useLayoutEffect(() => {
+    if (location.pathname === '/optin') {
+      setShowNav(false)
+    }
+  }, [location.pathname])
+
+
+  const handleNavigationToggle = () => {
+    setOpenNav(prevNav => !prevNav);
+  };
+
   return (
-    <div className="App">
+    <div className="App" style={{overflow: openNav ? "hidden" : "scroll"}}>
+      {showNav && (
+        <>
+          <NavBar openNav={openNav} handleNavigationToggle={handleNavigationToggle}/>
+          <NavigationOverlay open={openNav} toggleNavigation={handleNavigationToggle}/>
+        </>
+      )}
       <Switch>
         <Route exact path = '/' render ={routerProps => <About/>} />
         <Route exact path = '/about' render ={routerProps => <About/>} />
@@ -26,4 +48,4 @@ function App() {
   );
 }
 
-export default App;
+export default withRouter(App);

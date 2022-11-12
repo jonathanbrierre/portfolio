@@ -1,14 +1,26 @@
 import React, { Component } from 'react'
-import NavBar from '../NavBar'
 import ReactPlayer from 'react-player'
+import Swal from 'sweetalert2'
 
 class Contact extends Component {
+
+    renderAlert = () => {
+        Swal.fire({
+            title: 'Success!',
+            text: 'I will get back to you as soon as I can!',
+            icon: 'success',
+            confirmationButtonText: 'close'
+        })
+    }
+
+
     render() {
         return (
             <div>
-                <NavBar/>
                 <div className = 'contactDiv contentContainer' >
-                    <a className="book-call-button" role="button" href = 'https://calendly.com/jonathanbrierre/one-on-one'  rel="noopener noreferrer" target= '_blank'> <h3>Book a FREE 1 HR Consultation</h3></a>
+                    {/*<h2 className="waitlist-header">Join queue for a FREE consultation or coaching call!</h2>*/}
+                    {/*<button className="waitlist-button" onClick={this.renderAlert}>Join Queue</button>*/}
+                    <a className="book-call-button" role="button" href = 'https://calendly.com/jonathanbrierre/one-on-one'  rel="noopener noreferrer" target= '_blank'> <h3>Click here to book a FREE 1-hour coaching/consulting call</h3></a>
                     <h1>7 Principles to Manifestation</h1>
                     <ReactPlayer url="https://www.youtube.com/watch?v=Yph_ty-Eq1Q" width='337px' height='540px'/>
                     <br/>

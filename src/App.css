@@ -1,7 +1,156 @@
 
 #root, .App {
   height: 100%;
+  position: relative;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
+
+
+.App::-webkit-scrollbar {
+  display: none;
+}
+/*Navigation Styles*/
+.navigation-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  opacity: 0;
+  background-color: black;
+  pointer-events: none;
+  transition: opacity 0.3s;
+  z-index:15;
+}
+
+.navigation-overlay h2 {
+  cursor: pointer;
+}
+
+.navigation-overlay.active {
+  pointer-events:auto;
+  opacity: 1;
+}
+
+.nav-divider {
+  position: relative;
+  top: 55px;
+  margin: 0;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 20;
+  height: 55px;
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+.nav-bar.open-nav {
+  background-color: black;
+  transition: 0.25s;
+}
+
+.burger-box {
+  z-index: 20;
+  position: absolute;
+  width: 56px;
+  height: 50px;
+  transform: scale(0.6);
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+}
+
+#burger {
+}
+
+#burger span {
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 50%;
+  background: black;
+  opacity: 1;
+  transform: rotate(0deg);
+  transition: .25s ease-in-out;
+}
+
+#burger.open span {
+  background: white;
+}
+
+#burger span:nth-child(even) {
+  left: 50%;
+  border-radius: 0 9px 9px 0;
+}
+
+#burger span:nth-child(odd) {
+  left:0px;
+  border-radius: 9px 0 0 9px;
+}
+
+#burger span:nth-child(1), #burger span:nth-child(2) {
+  top: 0px;
+}
+
+#burger span:nth-child(3), #burger span:nth-child(4) {
+  top: 18px;
+}
+
+#burger span:nth-child(5), #burger span:nth-child(6) {
+  top: 36px;
+}
+
+#burger.open span:nth-child(1),#burger.open span:nth-child(6) {
+  transform: rotate(45deg);
+}
+
+#burger.open span:nth-child(2),#burger.open span:nth-child(5) {
+  transform: rotate(-45deg);
+}
+
+#burger.open span:nth-child(1) {
+  left: 5px;
+  top: 10px;
+}
+
+#burger.open span:nth-child(2) {
+  left: calc(50% - 5px);
+  top: 10px;
+}
+
+#burger.open span:nth-child(3) {
+  left: -50%;
+  opacity: 0;
+}
+
+#burger.open span:nth-child(4) {
+  left: 100%;
+  opacity: 0;
+}
+
+#burger.open span:nth-child(5) {
+  left: 5px;
+  top: 27px;
+}
+
+#burger.open span:nth-child(6) {
+  left: calc(50% - 5px);
+  top: 27px;
+}
+
+
+/*End Navigation styles*/
+
 
 .profileDiv{
   text-align: center;
@@ -61,12 +210,25 @@
 
 .book-call-button {
   color: white;
+  display: flex;
+  justify-content: center;
 }
 
 .book-call-button h3 {
   background-color: #4182C4;
   padding: 10px 10px;
   border-radius: 15px;
+  width: 75%;
+}
+
+.waitlist-button {
+  background-color: #4182C4;
+  padding: 10px 10px;
+  border-radius: 15px;
+  color: white;
+  border: none;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 
@@ -195,6 +357,7 @@
   background-color: black;
   font-family: Titillium Web, Arial, sans-serif;
   font-weight: 200;
+  scrollbar-width: none;
 }
 
 .blh-image {
