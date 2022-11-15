@@ -4,7 +4,12 @@ import { withRouter } from "react-router-dom";
 const NavigationOverlay = ({open, history, toggleNavigation}) => {
 
 	const handleNavigation = (route) => {
-		history.push(`/${route}`);
+		const path = `/${route}`;
+
+		if (path !== history.location.pathname) {
+			history.push(path);
+			document.querySelector('.App').scrollTo(0,0)
+		}
 		toggleNavigation();
 	}
 
