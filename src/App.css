@@ -449,7 +449,6 @@
 .final-cta a {
   border: 1px solid;
   width: 300px;
-  background-color: #4183C4;
   background-color: white;
   color: black;
   font-size: 18px;
@@ -482,6 +481,18 @@
     font-size: 24px;
     line-height: 35px
   }
+}
+
+
+/*Meditation/method page*/
+button.meditation-toggle {
+  margin: 5px 0 20px;
+  background-color: #4183C4;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
 }
 
 

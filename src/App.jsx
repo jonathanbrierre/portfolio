@@ -9,6 +9,7 @@ import ProjectsContainer from './Components/Projects/ProjectsContainer';
 import ReadingList from './Components/ReadingList/ReadingList';
 import OptinPage from  './Components/Optin/OptinPage';
 import HandbookPage from './Components/Handbook/HandbookPage';
+import MethodPage from './Components/Method/MethodPage'
 
 function App({location}) {
   const [openNav, setOpenNav] = useState(false);
@@ -43,6 +44,7 @@ function App({location}) {
         <Route exact path = '/projects' render = {routerProps => <ProjectsContainer/> } />
         <Route exact path = '/books' render = {routerProps => <ReadingList/> } />
         <Route exact path = '/optin' render = {routerProps => <OptinPage/> } />
+        <Route path = '/method/:view' render = {routerProps => <MethodPage {...routerProps}/> } />
       </Switch>
     </div>
   );
