@@ -1,5 +1,5 @@
-import React, {useState, useLayoutEffect} from 'react';
-import {Switch, Route, withRouter} from 'react-router-dom'
+import React, { useState, useLayoutEffect } from 'react';
+import { Switch, Route, withRouter } from 'react-router-dom'
 import './App.css';
 import NavigationOverlay from './Components/Navigation/NavigationOverlay';
 import NavBar from './Components/Navigation/NavBar';
@@ -7,11 +7,12 @@ import About from './Components/About/AboutContainer';
 import Contact from './Components/ContactMe/ContactContainer';
 import ProjectsContainer from './Components/Projects/ProjectsContainer';
 import ReadingList from './Components/ReadingList/ReadingList';
-import OptinPage from  './Components/Optin/OptinPage';
+import OptinPage from './Components/Optin/OptinPage';
 import HandbookPage from './Components/Handbook/HandbookPage';
 import MethodPage from './Components/Method/MethodPage'
+import Catalog from './Components/Meditations/Catalog';
 
-function App({location}) {
+function App({ location }) {
   const [openNav, setOpenNav] = useState(false);
   const [showNav, setShowNav] = useState(true)
 
@@ -27,24 +28,25 @@ function App({location}) {
   };
 
   return (
-    <div className="App" style={{overflow: openNav ? "hidden" : "scroll"}}>
+    <div className="App" style={{ overflow: openNav ? "hidden" : "scroll" }}>
       {showNav && (
         <>
-          <NavBar openNav={openNav} handleNavigationToggle={handleNavigationToggle}/>
-          <NavigationOverlay open={openNav} toggleNavigation={handleNavigationToggle}/>
+          <NavBar openNav={openNav} handleNavigationToggle={handleNavigationToggle} />
+          <NavigationOverlay open={openNav} toggleNavigation={handleNavigationToggle} />
         </>
       )}
       <Switch>
-        <Route exact path = '/' render ={routerProps => <About/>} />
-        <Route exact path = '/about' render ={routerProps => <About/>} />
-        <Route exact path = '/network' render = {routerProps => <Contact/> } />
-        <Route exact path = '/manifest' render = {routerProps => <Contact/> } />
-        <Route exact path = '/handbook' render = {routerProps => <HandbookPage/> } />
-        <Route exact path = '/me' render = {routerProps => <Contact/> } />
-        <Route exact path = '/projects' render = {routerProps => <ProjectsContainer/> } />
-        <Route exact path = '/books' render = {routerProps => <ReadingList/> } />
-        <Route exact path = '/optin' render = {routerProps => <OptinPage/> } />
-        <Route path = '/method/:view' render = {routerProps => <MethodPage {...routerProps}/> } />
+        <Route exact path='/' render={routerProps => <About />} />
+        <Route exact path='/about' render={routerProps => <About />} />
+        <Route exact path='/network' render={routerProps => <Contact />} />
+        <Route exact path='/manifest' render={routerProps => <Contact />} />
+        <Route exact path='/handbook' render={routerProps => <HandbookPage />} />
+        <Route exact path='/me' render={routerProps => <Contact />} />
+        <Route exact path='/projects' render={routerProps => <ProjectsContainer />} />
+        <Route exact path='/books' render={routerProps => <ReadingList />} />
+        <Route exact path='/optin' render={routerProps => <OptinPage />} />
+        <Route path='/method/:view' render={routerProps => <MethodPage {...routerProps} />} />
+        <Route path='/meditations' render={routerProps => <Catalog />} />
       </Switch>
     </div>
   );

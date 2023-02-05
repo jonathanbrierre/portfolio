@@ -1,0 +1,67 @@
+.meditations h5 {
+    width: 75%;
+}
+
+.meditation-thumbnail {
+    height: 100px;
+    width: 150px;
+}
+
+.meditations-container {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    width: 100%;
+    gap: 50px;
+    padding: 20px
+}
+
+.meditations h5 {
+    margin-top: 0;
+}
+
+
+.meditation-anchor {
+    height: 205px;
+    width: 375px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.75);
+    background-color: black;
+    border-radius: 20px;
+}
+
+.meditation-anchor.values {
+    background-image: url('./images/values.png');
+}
+
+.meditation-anchor.heart {
+    background-image: url('./images/heart.png');
+}
+
+.meditation-anchor.emotions {
+    background-image: url('./images/emotions.png');
+}
+
+.meditation-anchor.beliefs {
+    background-image: url('./images/beliefs.png');
+}
+
+.meditation-anchor.behaviors {
+    background-image: url('./images/behaviors.png');
+}
+
+.meditation-anchor.reconditioning {
+    background-image: url('./images/reconditioning.png');
+}
+
+.meditation-anchor.short-abundance {
+    background-image: url('./images/short-abundance.png');
+}
