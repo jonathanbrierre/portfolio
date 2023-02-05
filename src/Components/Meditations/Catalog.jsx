@@ -49,7 +49,7 @@ export default function Catalog() {
     return (
         <div className='meditations contentContainer'>
             <h1>Meditation Catalog</h1>
-            <h5>I am a certified meditation teacher, and the following meditations are a collection of my personal recordings for the purpose of unlocking your hidden potential. As I create more, I will post them here and on my youtube channel. <br /> <br /> May you find everlasting peace 🙇🏾‍♂️</h5>
+            <h5>I am a meditation teacher certified by the Complementary Therapists Accredited Association (CTAA). <br /> <br />The following meditations are a collection of my personal recordings for the purpose of unlocking your hidden potential. As I create more, I will post them here and on my youtube channel. <br /> <br /> May you find everlasting peace 🙇🏾‍♂️</h5>
             <div className='meditations-container'>
                 {renderMeditations()}
             </div>
