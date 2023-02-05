@@ -16,13 +16,13 @@ const About = () => {
                         Otherwise, feel free to tap the navigation icon in the top corner and explore my free resources!
 
                         <h3>Featured Press:</h3>
-                        <a href="https://miamiwire.com/from-ego-to-enlightenment-jonathan-brierres-quest-for-inner-peace-and-the-path-to-helping-others/" target="_blank">The Miami Wire</a>
+                        <a href="https://miamiwire.com/from-ego-to-enlightenment-jonathan-brierres-quest-for-inner-peace-and-the-path-to-helping-others/" target="_blank" rel="noopener noreferrer">The Miami Wire</a>
                         <br />
                         <br />
-                        <a href="https://thechicagojournal.com/jonathan-brierre-carves-a-path-to-happiness/" target="_blank">The Chicago Journal</a>
+                        <a href="https://thechicagojournal.com/jonathan-brierre-carves-a-path-to-happiness/" target="_blank" rel="noopener noreferrer">The Chicago Journal</a>
                         <br />
                         <br />
-                        <a href="https://newyorkbusinessnow.com/exclusive-interview-with-jonathan-brierre/" target="_blank">New York Business Now</a>
+                        <a href="https://newyorkbusinessnow.com/exclusive-interview-with-jonathan-brierre/" target="_blank" rel="noopener noreferrer">New York Business Now</a>
                     </div>
                 </div>
             </div>

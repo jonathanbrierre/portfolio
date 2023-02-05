@@ -1,13 +1,6 @@
 import React from 'react'
 import "./catalog.css"
 
-import beliefs from './images/beliefs.png';
-import behaviors from './images/behaviors.png';
-import emotions from './images/emotions.png';
-import expandedHeart from './images/heart.png';
-import values from './images/values.png';
-import reconditioning from './images/reconditioning.png';
-
 const meditations = [{
     link: "https://youtu.be/bHjjvfy3CYY",
     name: 'values'
@@ -41,7 +34,7 @@ export default function Catalog() {
 
     const renderMeditations = () => {
         return meditations.map((meditation, index) => (
-            <a href={meditation.link} target="_blank" key={index} className={`meditation-anchor ${meditation.name}`} />
+            <a href={meditation.link} target="_blank" key={index} className={`meditation-anchor ${meditation.name}`} rel="noopener noreferrer" ><div /></a> // added a div to remove console warning
         ))
     }
 
