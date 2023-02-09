@@ -1,34 +1,35 @@
 import React from 'react'
 import "./catalog.css"
 
-const meditations = [{
-    link: "https://youtu.be/bHjjvfy3CYY",
-    name: 'values'
-},
-{
-    link: "https://youtu.be/sY7Pz1ux6Ps",
-    name: 'heart'
-},
-{
-    link: "https://youtu.be/wquRG4PBOmc",
-    name: 'emotions'
-},
-{
-    link: "https://youtu.be/QwAuxly8gMg",
-    name: "beliefs"
-},
-{
-    link: "https://youtu.be/ImPwA-txdaw",
-    name: 'behaviors'
-},
-{
-    link: "https://www.youtube.com/playlist?list=PL94YXcilY2mVm4iiGNToMFbBM5f5H0OWm",
-    name: 'reconditioning'
-},
-{
-    link: "https://www.youtube.com/watch?v=oNw55Qxpf_w&t=2s",
-    name: 'short-abundance'
-}]
+const meditations = [
+    {
+        link: "https://youtu.be/sY7Pz1ux6Ps",
+        name: 'heart'
+    },
+    {
+        link: "https://youtu.be/bHjjvfy3CYY",
+        name: 'values'
+    },
+    {
+        link: "https://youtu.be/wquRG4PBOmc",
+        name: 'emotions'
+    },
+    {
+        link: "https://youtu.be/QwAuxly8gMg",
+        name: "beliefs"
+    },
+    {
+        link: "https://youtu.be/ImPwA-txdaw",
+        name: 'behaviors'
+    },
+    {
+        link: "https://www.youtube.com/playlist?list=PL94YXcilY2mVm4iiGNToMFbBM5f5H0OWm",
+        name: 'reconditioning'
+    },
+    {
+        link: "https://www.youtube.com/watch?v=oNw55Qxpf_w&t=2s",
+        name: 'short-abundance'
+    }]
 
 export default function Catalog() {
 
