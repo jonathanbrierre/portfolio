@@ -27,7 +27,7 @@
 .meditation-anchor {
     height: 205px;
     width: 375px;
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
@@ -36,6 +36,7 @@
     box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.75);
     background-color: black;
     border-radius: 20px;
+    transition: 0.3s;
 }
 
 .meditation-anchor.values {
@@ -64,4 +65,13 @@
 
 .meditation-anchor.short-abundance {
     background-image: url('./images/short-abundance.png');
+}
+
+.meditation-anchor.metta {
+    background-image: url('./images/metta.png');
+}
+
+.meditation-anchor:hover {
+    background-size: 110%;
+    box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.95);
 }

@@ -7,8 +7,16 @@ const meditations = [
         name: 'heart'
     },
     {
+        link: "https://youtu.be/uwE2ojkUAgY",
+        name: 'metta'
+    },
+    {
         link: "https://youtu.be/bHjjvfy3CYY",
         name: 'values'
+    },
+    {
+        link: "https://youtu.be/ImPwA-txdaw",
+        name: 'behaviors'
     },
     {
         link: "https://youtu.be/wquRG4PBOmc",
@@ -17,10 +25,6 @@ const meditations = [
     {
         link: "https://youtu.be/QwAuxly8gMg",
         name: "beliefs"
-    },
-    {
-        link: "https://youtu.be/ImPwA-txdaw",
-        name: 'behaviors'
     },
     {
         link: "https://www.youtube.com/playlist?list=PL94YXcilY2mVm4iiGNToMFbBM5f5H0OWm",

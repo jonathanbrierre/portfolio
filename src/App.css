@@ -197,7 +197,7 @@
 
 .contentContainer {
   position: relative;
-  top: 7vh;
+  top: 10vh;
   z-index: 1;
   text-align: center;
   display: flex;
