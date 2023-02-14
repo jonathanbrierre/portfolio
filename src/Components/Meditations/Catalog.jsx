@@ -11,6 +11,10 @@ const meditations = [
         name: 'metta'
     },
     {
+        link: "https://youtu.be/C9PHYEo2zOY",
+        name: 'zen'
+    },
+    {
         link: "https://youtu.be/bHjjvfy3CYY",
         name: 'values'
     },
