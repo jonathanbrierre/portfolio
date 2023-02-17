@@ -3,32 +3,36 @@ import "./catalog.css"
 
 const meditations = [
     {
-        link: "https://youtu.be/sY7Pz1ux6Ps",
-        name: 'heart'
-    },
-    {
-        link: "https://youtu.be/uwE2ojkUAgY",
-        name: 'metta'
+        link: 'https://www.youtube.com/watch?v=qHGVZKj1caw',
+        name: 'box'
     },
     {
         link: "https://youtu.be/C9PHYEo2zOY",
         name: 'zen'
     },
     {
-        link: "https://youtu.be/bHjjvfy3CYY",
-        name: 'values'
-    },
-    {
-        link: "https://youtu.be/ImPwA-txdaw",
-        name: 'behaviors'
+        link: "https://youtu.be/uwE2ojkUAgY",
+        name: 'metta'
     },
     {
         link: "https://youtu.be/wquRG4PBOmc",
         name: 'emotions'
     },
     {
+        link: "https://youtu.be/bHjjvfy3CYY",
+        name: 'values'
+    },
+    {
         link: "https://youtu.be/QwAuxly8gMg",
         name: "beliefs"
+    },
+    {
+        link: "https://youtu.be/sY7Pz1ux6Ps",
+        name: 'heart'
+    },
+    {
+        link: "https://youtu.be/ImPwA-txdaw",
+        name: 'behaviors'
     },
     {
         link: "https://www.youtube.com/playlist?list=PL94YXcilY2mVm4iiGNToMFbBM5f5H0OWm",
