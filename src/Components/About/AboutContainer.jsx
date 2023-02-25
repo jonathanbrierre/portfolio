@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
 const About = () => {
     return (
         <div>
@@ -10,7 +10,9 @@ const About = () => {
                 <div className='textContainer'>
                     <div className='aboutText'>Thank you for taking the time to check out my website. <br></br> <br></br>
                         My name is Jonathan Brierre, and I love helping people and companies actualize their full potential.
-                        If you feel I can contribute in the achievement of your goals, you can contact me <Link to='/network'>here</Link>
+                        <br />
+                        <br />
+                        If you want me to consult your brand for press releases, book a call <a href='https://calendly.com/jonathanbrierre/reactive-discovery-call'>here.</a>
                         <br />
                         <br />
                         Otherwise, feel free to tap the navigation icon in the top corner and explore my free resources!

@@ -1,7 +1,7 @@
 import React from 'react'
 import Project from './Project'
 
-class ProjectsContainer extends React.Component{
+class ProjectsContainer extends React.Component {
 
     state = {
         projects: [
@@ -11,7 +11,6 @@ class ProjectsContainer extends React.Component{
                 description: "A mobile friendly app to share your feelings! (Be sure to watch the demo video to see the chrome extension functionality)",
                 technologiesUsed: ['React', 'Context API', 'React Native', 'Mapbox GL', 'Ruby on Rails', 'Chrome Extension API'],
                 disclaimer: 'May take a few seconds to load',
-                liveDemo: 'https://wefeel.pause.us/',
                 videoDemo: 'https://www.youtube.com/watch?v=aMtFDWzsazU'
             },
             {
@@ -36,20 +35,19 @@ class ProjectsContainer extends React.Component{
                 disclaimer: 'As this application loads from a Heroku server, expect a brief wait while the app initially loads. Best viewed on desktop',
                 technologiesUsed: ['Ruby on Rails', 'HTML/CSS', 'BCrypt Cookie Authentication', 'Action Mailer'],
                 gitHubLink: 'https://github.com/jonathanbrierre/Pineapple-Express',
-                liveDemo: 'https://pineapple-express.herokuapp.com/',
                 videoDemo: 'https://www.youtube.com/watch?v=inwS2mZT8SU'
             },
             {
-                id: 1, 
+                id: 1,
                 name: 'The Youniverse',
                 description: 'A space-themed social media application centered around promoting emotional intelligence',
-                technologiesUsed: ['React', 'Redux', 'React Router','Semantic UI React', 'Websockets/ActionCable', 'Ruby on Rails', 'JWT Token Authentication'],
+                technologiesUsed: ['React', 'Redux', 'React Router', 'Semantic UI React', 'Websockets/ActionCable', 'Ruby on Rails', 'JWT Token Authentication'],
                 frontGitHubLink: 'https://github.com/jonathanbrierre/TheYouniverse-Front',
                 backGitHubLink: 'https://github.com/jonathanbrierre/TheYouniverse-Back',
                 liveDemo: null,
                 videoDemo: 'https://www.youtube.com/watch?v=93rDLcB3dKI&t=5s'
             },
-            { 
+            {
                 id: 3,
                 name: "Your Team's Time",
                 description: "A minimalist app built so managers and team leaders can create their team's weekly schedules on a spreadhseet",
@@ -57,8 +55,6 @@ class ProjectsContainer extends React.Component{
                 technologiesUsed: ['React', 'Ruby on Rails', 'React Router', 'JWT Token Authentication', 'React Datasheet'],
                 frontGitHubLink: 'https://github.com/rexy91/mod4projectHR-frontend',
                 backGitHubLink: 'https://github.com/rexy91/mod4ProjectHR-backend',
-                liveDemo: 'https://yourteamtime.netlify.com/',
-                videoDemo: null
             },
             {
                 id: 5,
@@ -66,7 +62,6 @@ class ProjectsContainer extends React.Component{
                 description: "An application where a user can submit books they have read in order to leave reviews on them",
                 technologiesUsed: ['JavaScript', 'HTML/CSS', 'Ruby on Rails'],
                 gitHubLink: 'https://github.com/elikantor/Read-n-Review',
-                liveDemo: 'https://read-n-review-frontend.herokuapp.com/',
                 videoDemo: 'https://www.youtube.com/watch?v=vBrI-09MMok&t=1s'
             },
             {
@@ -75,28 +70,28 @@ class ProjectsContainer extends React.Component{
                 description: "A mock stock buying application where a user searches for live stocks to be added to a portfolio and audit pages",
                 technologiesUsed: ['React', 'Redux', 'React Router', 'Ruby on Rails', 'Semantic UI React', 'JWT Token Authentication', 'IEXCloud API'],
                 gitHubLink: 'https://github.com/jonathanbrierre/Stocks-TechTalent',
-                liveDemo: 'https://nycttp-stocks.netlify.com/',
                 videoDemo: 'https://youtu.be/f0PQrx_FJJY'
             }
         ]
     }
 
     renderProjects = () => {
-        return this.state.projects.map(project => <Project key = {project.id} project = {project}/>)
+        return this.state.projects.map(project => <Project key={project.id} project={project} />)
     }
 
 
-    render(){
+    render() {
         return (
             <div>
-                <div className = 'contentContainer'>
+                <div className='contentContainer'>
                     <h2>Past Software Projects</h2>
                     {this.renderProjects()}
-                    <div style={{padding: '3vh'}}></div>
-                    <footer style ={{color: 'white', backgroundColor:'black', textAlign: 'center', padding: '1vh', position:'fixed', zIndex: '2', left: '0', bottom: '0', width: '100%' }}> <p>This site was built using React, React Router, CSS, and Semantic UI React</p></footer>
+                    <div style={{ padding: '3vh' }}></div>
+                    <footer style={{ color: 'white', backgroundColor: 'black', textAlign: 'center', padding: '1vh', position: 'fixed', zIndex: '2', left: '0', bottom: '0', width: '100%' }}> <p>This whole site was built using JavaScript and React.js</p></footer>
                 </div>
             </div>
-    )}
+        )
+    }
 }
 
 export default ProjectsContainer
