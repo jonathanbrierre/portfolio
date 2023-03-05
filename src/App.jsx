@@ -11,6 +11,7 @@ import OptinPage from './Components/Optin/OptinPage';
 import HandbookPage from './Components/Handbook/HandbookPage';
 import MethodPage from './Components/Method/MethodPage'
 import Catalog from './Components/Meditations/Catalog';
+import AffilitatePage from './Components/Affiliates/AffilitatePage';
 
 function App({ location }) {
   const [openNav, setOpenNav] = useState(false);
@@ -47,6 +48,7 @@ function App({ location }) {
         <Route exact path='/optin' render={routerProps => <OptinPage />} />
         <Route path='/method/:view' render={routerProps => <MethodPage {...routerProps} />} />
         <Route path='/meditations' render={routerProps => <Catalog />} />
+        <Route path='/affiliate/:partner' render={routerProps => <AffilitatePage {...routerProps} />} />
       </Switch>
     </div>
   );

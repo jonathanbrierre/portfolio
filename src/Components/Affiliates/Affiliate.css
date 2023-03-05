@@ -1,0 +1,83 @@
+.affiliate-page {
+    padding-bottom: 25px;
+}
+
+.affiliate-header__container {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 1000px;
+    margin-bottom: 50px;
+}
+
+.brand-logos {
+    width: 80%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.brand-logo {
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    height: 50vw;
+    max-height: 400px;
+}
+
+.my-logo {
+    background-image: url('./logos/my-logo.jpeg');
+}
+
+.staiber-consulting {
+    background-image: url('./logos/staiber-consulting.jpeg')
+}
+
+.affiliate-cta {
+    width: 80%;
+    font-size: 17px;
+}
+
+.affiliate-cta__button {
+    background-color: #4182C4;
+    padding: 10px 10px;
+    border-radius: 15px;
+    width: 75%;
+    color: white;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.affiliate-cta__button:hover {
+    background-color: #4890D9;
+}
+
+@media screen and (min-width: 800px) {
+    .affiliate-header__container {
+        flex-direction: row;
+    }
+
+    .brand-logos {
+        flex-direction: row;
+        gap: 50px;
+        padding: 50px;
+    }
+
+    .brand-logo {
+        flex: 1;
+        background-size: 100%;
+    }
+}
+
+/* @media screen and (max-width: 800px) {
+    .brand
+} */
