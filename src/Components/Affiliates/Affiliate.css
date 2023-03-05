@@ -38,7 +38,8 @@
 }
 
 .staiber-consulting {
-    background-image: url('./logos/staiber-consulting.jpeg')
+    background-image: url('./logos/staiber-consulting.jpeg');
+    height: 25vw;
 }
 
 .affiliate-cta {
@@ -75,6 +76,7 @@
     .brand-logo {
         flex: 1;
         background-size: 100%;
+        height: 40vw;
     }
 }
 
