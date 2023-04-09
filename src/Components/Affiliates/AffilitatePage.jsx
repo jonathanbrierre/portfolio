@@ -5,6 +5,10 @@ const AFFILIATES = {
     "staiberconsulting": {
         companyName: "Staiber Consulting",
         imgClass: 'staiber-consulting'
+    },
+    'fireupconnect': {
+        companyName: "Fire Up Connect",
+        imgClass: 'fire-up-connect'
     }
 }
 

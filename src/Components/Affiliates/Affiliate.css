@@ -42,6 +42,11 @@
     height: 25vw;
 }
 
+.fire-up-connect {
+    background-image: url('./logos/fire-up-connect.png');
+    height: 25vw;
+}
+
 .affiliate-cta {
     width: 80%;
     font-size: 17px;
