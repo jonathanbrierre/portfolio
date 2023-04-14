@@ -16,6 +16,9 @@ const About = () => {
                         As I have many skills and capabilities, I have decided to keep this site simple.
                         <br />
                         <br />
+                        For more on my backstory, check out the Featured Articles section below!
+                        <br />
+                        <br />
                         For speaking engagements, meditation coaching/consulting, or software consulting, book a call <a href='https://calendly.com/jonathanbrierre/one-on-one'>here</a> and leave a note describing your intention to meet.
                         <br />
                         <br />
@@ -27,7 +30,7 @@ const About = () => {
                         <br />
                         Otherwise, feel free to tap the navigation icon in the top corner and explore my free resources!
 
-                        <h3>Featured Press:</h3>
+                        <h3>Featured Articles:</h3>
                         <a href="https://miamiwire.com/from-ego-to-enlightenment-jonathan-brierres-quest-for-inner-peace-and-the-path-to-helping-others/" target="_blank" rel="noopener noreferrer">The Miami Wire</a>
                         <br />
                         <br />
