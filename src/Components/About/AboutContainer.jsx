@@ -22,7 +22,7 @@ const About = () => {
                         For speaking engagements, meditation coaching/consulting, or software consulting, book a call <a href='https://calendly.com/jonathanbrierre/one-on-one'>here</a> and leave a note describing your intention to meet.
                         <br />
                         <br />
-                        To get a copy of my book, find it <Link to={"handbook"}>here.</Link>
+                        To get a copy of my book, find it <Link to={"handbook"} onClick={() => document.querySelector('.App').scrollTo(0, 0)}>here.</Link>
                         <br />
                         <br />
                         If you want me to consult your company or brand for press releases, book a call <a href='https://calendly.com/jonathanbrierre/reactive-discovery-call'>here.</a>
