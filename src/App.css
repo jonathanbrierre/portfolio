@@ -1,3 +1,7 @@
+body {
+  min-width: unset;
+}
+
 #root,
 .App {
   height: 100%;
@@ -51,13 +55,32 @@
   width: 100%;
   z-index: 20;
   height: 55px;
-  background-color: white;
-  border-bottom: 1px solid black;
+  background-color: transparent;
+  /* border-bottom: 1px solid black; */
 }
 
 .nav-bar.open-nav {
   background-color: black;
   transition: 0.25s;
+}
+
+.nav-bar.home-route {
+  background-color: transparent;
+  border: none;
+}
+
+.burger-box__container {
+  width: 65px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  background-color: white;
+  height: 100%;
+  transition: all 0.3s;
+}
+
+.burger-box__container.clear {
+  background-color: transparent;
 }
 
 .burger-box {
@@ -67,7 +90,7 @@
   height: 50px;
   transform: scale(0.6);
   top: 5px;
-  left: 5px;
+  right: 5px;
   cursor: pointer;
 }
 
@@ -82,6 +105,10 @@
   opacity: 1;
   transform: rotate(0deg);
   transition: .25s ease-in-out;
+}
+
+#burger.turned-white span {
+  background: white;
 }
 
 #burger.open span {

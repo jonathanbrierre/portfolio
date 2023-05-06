@@ -1,0 +1,478 @@
+.landing-page h1,
+.landing-page h2,
+.landing-page h3 {
+    font-family: "Optima";
+}
+
+.landing-page h4,
+.landing-page p {
+    font-family: "Helvetica";
+}
+
+.landing-page h2 {
+    font-size: 60px;
+}
+
+.landing-page h3 {
+    font-size: 40px;
+}
+
+.landing-page button {
+    letter-spacing: 4px;
+    background-color: transparent;
+    border-radius: none;
+    padding: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+    border: 2px solid black;
+    color: black;
+}
+
+.landing-page button:hover {
+    color: white;
+    background-color: black;
+}
+
+
+.landing-page {
+    top: 0;
+}
+
+.copy-container {
+    padding: 80px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container {
+    background-image: url('./images/skulls-and-roses.png');
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0;
+    z-index: 100;
+    position: relative;
+    opacity: 1
+}
+
+.bottom-observer {
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    height: 15px;
+    position: absolute;
+}
+
+.header-container .text-container {
+    position: absolute;
+    color: white;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.header-container h1 {
+    font-size: 105px;
+    font-family: "Optima";
+}
+
+.header-container h4 {
+    font-size: 30px;
+    line-height: 40px;
+
+    font-weight: 400;
+}
+
+.header-container button {
+    border-color: white;
+    color: white;
+    width: 160px;
+    margin-top: 30px;
+}
+
+.header-container button:hover {
+    background-color: white;
+    color: black;
+}
+
+.text-container {
+    top: 60px;
+    left: 60px;
+}
+
+
+/* bio-section */
+
+.bio-container {
+    gap: 100px;
+}
+
+
+
+.headshot-container {
+    height: 400px;
+    flex: 2;
+    max-width: 500px;
+}
+
+.headshot {
+    background-image: url('./images/headshot.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bio-text {
+    flex: 1;
+    text-align: left;
+}
+
+.bio-text h2 {
+    font-size: 60px;
+    font-family: "Optima";
+}
+
+.bio-text p {
+    font-size: 17px;
+}
+
+/* featured section */
+
+.featured-work {
+    flex-direction: column;
+    padding-top: 0px;
+}
+
+.featured-work .featured-header {
+    width: 100%;
+    text-align: left;
+}
+
+.featured-meditations__container,
+.featured-book__container {
+    display: flex;
+    height: 350px;
+    gap: 150px;
+    width: 100%
+}
+
+.text-container {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-container h3 {
+    font-size: 30px;
+}
+
+.text-container p {
+    font-size: 18px;
+}
+
+.text-container .nyweekly-tag {
+    margin-top: 0px;
+    margin-bottom: 60px;
+    font-size: 22px
+}
+
+.meditations-image__container,
+.book-image__container {
+    flex: 2;
+
+}
+
+.meditations-image,
+.book-image {
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.meditations-image {
+    background-image: url('./images/mountain-meditation.png');
+
+}
+
+.book-image__container .book-image {
+    background-image: url('./images/handbook.jpg');
+}
+
+.artsy-backdrop {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./images/painting-face.png');
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    display: flex;
+    margin-top: 30px;
+}
+
+.headline__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.headline__container h1 {
+    font-size: 4.5vw;
+    text-align: left;
+}
+
+.chicagojournal-tag__container {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.chicagojournal-tag {
+    background-image: url('./images/chicago-journal.png');
+    height: 100px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.services__container {
+    flex-direction: column;
+}
+
+.services-header {
+    text-align: left;
+    width: 100%;
+}
+
+.service h3.service-header {
+    font-size: 30px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+
+.services__row-one,
+.services__row-two {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.services .service {
+    flex: 1;
+}
+
+.img-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-box div {
+    height: 270px;
+    width: 75%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-box .mountain-man {
+    background-image: url('./images/mountain-sit.jpg');
+    /* background-position-y: -60px; */
+}
+
+.microphone {
+    background-image: url('./images/microphone.jpg');
+}
+
+.img-box .news {
+    background-image: url('./images/phone-and-paper.png');
+    background-position-y: bottom;
+}
+
+.laptop {
+    background-image: url('./images/coding-image.png');
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-header {
+    width: 100%;
+    text-align: left;
+}
+
+.footer-copy {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.footer-copy p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.footer-image {
+    background-image: url('./images/footer-image.png');
+    width: 125%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.3
+}
+
+
+@media screen and (max-width: 1300px) {
+    .header-container {
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .copy-container {
+        padding: 40px;
+    }
+
+    .bio-container {
+        gap: 60px;
+    }
+
+    .artsy-backdrop {
+        height: 500px;
+    }
+
+    .headline__container h1 {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .bio-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .headshot-container {
+        flex: unset;
+        width: 95vw;
+    }
+
+    .featured-meditations__container,
+    .featured-book__container {
+        gap: 0px;
+        height: fit-content;
+    }
+
+    .featured-meditations__container {
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+    }
+
+    .featured-book__container {
+        flex-direction: column;
+    }
+
+    .book-image__container,
+    .meditations-image__container {
+        margin-bottom: 20px;
+    }
+
+    .meditations-image {
+        max-height: 400px;
+        height: 100vw;
+    }
+
+    .book-image {
+        height: 100vw;
+        max-height: 500px;
+    }
+
+    .services__row-one,
+    .services__row-two {
+        flex-direction: column;
+        gap: 10px;
+        padding-bottom: 10px;
+    }
+
+    .footer-copy {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header-container .text-container {
+        top: 150px;
+        left: 20px;
+    }
+
+    .header-container h1 {
+        font-size: 80px;
+    }
+
+    .header-container h4 {
+        font-size: 25px;
+    }
+
+    .copy-container {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .headshot-container {
+        height: 80vw;
+    }
+
+    .artsy-backdrop {
+        flex-direction: column;
+    }
+
+    .headline__container {
+        flex: 4
+    }
+
+    .headline__container h1 {
+        text-align: center;
+        font-size: 30px;
+
+    }
+
+    .chicagojournal-tag__container {
+        width: 100%;
+        align-items: center;
+        flex: 1
+    }
+}
+
+.footer__container {
+    padding-bottom: 0px;
+}
+
+@media screen and (max-width: 350px) {
+    .header-container h1 {
+        font-size: 65px
+    }
+}

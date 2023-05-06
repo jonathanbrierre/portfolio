@@ -16,7 +16,7 @@ const About = () => {
                         As I have many skills and capabilities, I have decided to keep this site simple.
                         <br />
                         <br />
-                        For more on my backstory, check out the Featured Articles section below!
+                        For more on my backstory, check out the <strong> Featured Articles </strong> section below!
                         <br />
                         <br />
                         For speaking engagements, meditation coaching/consulting, or software consulting, book a call <a href='https://calendly.com/jonathanbrierre/one-on-one'>here</a> and leave a note describing your intention to meet.

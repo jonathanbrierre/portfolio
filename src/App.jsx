@@ -12,10 +12,12 @@ import HandbookPage from './Components/Handbook/HandbookPage';
 import MethodPage from './Components/Method/MethodPage'
 import Catalog from './Components/Meditations/Catalog';
 import AffilitatePage from './Components/Affiliates/AffilitatePage';
+import LandingPage from './Components/Landing/LandingPage';
 
 function App({ location }) {
   const [openNav, setOpenNav] = useState(false);
-  const [showNav, setShowNav] = useState(true)
+  const [showNav, setShowNav] = useState(true);
+  const [turnBurgerWhite, setTurnBurgerWhite] = useState(false);
 
   useLayoutEffect(() => {
     if (location.pathname === '/optin') {
@@ -32,13 +34,14 @@ function App({ location }) {
     <div className="App" style={{ overflow: openNav ? "hidden" : "scroll" }}>
       {showNav && (
         <>
-          <NavBar openNav={openNav} handleNavigationToggle={handleNavigationToggle} />
+          <NavBar openNav={openNav} handleNavigationToggle={handleNavigationToggle} turnBurgerWhite={turnBurgerWhite} />
           <NavigationOverlay open={openNav} toggleNavigation={handleNavigationToggle} />
         </>
       )}
       <Switch>
-        <Route exact path='/' render={routerProps => <About />} />
-        <Route exact path='/about' render={routerProps => <About />} />
+        <Route exact path='/' render={routerProps => <LandingPage setTurnBurgerWhite={setTurnBurgerWhite} />} />
+        <Route exact path='/about' render={routerProps => <LandingPage setTurnBurgerWhite={setTurnBurgerWhite} />} />
+        <Route exact path='/oldabout' render={routerProps => <About />} />
         <Route exact path='/network' render={routerProps => <Contact />} />
         <Route exact path='/manifest' render={routerProps => <Contact />} />
         <Route exact path='/handbook' render={routerProps => <HandbookPage />} />
