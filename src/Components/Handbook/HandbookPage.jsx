@@ -36,7 +36,7 @@ const HandbookPage = (props) => {
 				<div className='blh-description-container'>
 					<CTA />
 					<div className='blh-description'>
-						In a world where the majority of us suffer incessantly and unnecessarily, this book was written as a means to give light to a pathway to happiness that most of us are unaware of. A Short Handbook for Happiness is reading that delves into The Philosophy of Stoicism. It's a philosophy much like Buddhism in the sense that it focuses on bringing forth happiness and fulfillment from within ourselves. How do we achieve this? Read the book and find out!
+						In a world where the majority of us suffer incessantly and unnecessarily, this book was written as a means to give light to a pathway to happiness that most of us are unaware of. A Short Handbook for Happiness is a reading that delves into The Philosophy of Stoicism, Buddhism, contemporary psychology and neuroscience. The goal of this book is to help stimulate a contemplative journey towards lasting happiness and fulfillment. How do we achieve these things? Read the book and find out!
 					</div>
 				</div>
 			</div>
