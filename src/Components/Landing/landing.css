@@ -292,6 +292,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    min-width: 325px;
 }
 
 .img-box .mountain-man {
@@ -319,7 +320,7 @@
 
 .footer-header {
     width: 100%;
-    text-align: left;
+    text-align: center;
 }
 
 .footer-copy {
