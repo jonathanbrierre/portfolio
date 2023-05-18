@@ -22,6 +22,7 @@ const NavigationOverlay = ({ open, history, toggleNavigation }) => {
 			{/* <h2 className="page-title" onClick={() => handleNavigation("manifest")}>Book a FREE Call</h2> */}
 			<h2 className="page-title" onClick={() => handleNavigation("books")}>Reading List</h2>
 			<h2 className="page-title" onClick={() => handleNavigation("projects")}>Engineering</h2>
+			<h2 className="page-title"><a href="https://www.reactivemediagroup.com" target="_blank" rel='noopener noreferrer'>Public Relations</a></h2>
 		</div>
 	)
 }
