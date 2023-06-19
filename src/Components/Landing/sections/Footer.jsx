@@ -6,7 +6,7 @@ function Footer() {
             <h2 className='footer-header'>Get in Touch</h2>
             <div className='footer-copy'>
                 <p>Know that it's always a pleasure to be of great service!</p>
-                <a href="https://calendly.com/jonathanbrierre/one-on-one" target="_blank" rel='noopener noreferrer'> <button> BOOK ME</button></a>
+                <a href="https://calendly.com/jonathanbrierre/one-on-one" target="_blank" rel='noopener noreferrer'> <button> BOOK A FREE CONSULTATION</button></a>
             </div>
             <div className='footer-image' />
         </div>

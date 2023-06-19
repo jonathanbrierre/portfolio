@@ -19,7 +19,7 @@ function Header() {
                     </h4>
                 </div>
                 <div className='book-me-button-container'>
-                    <a href="https://calendly.com/jonathanbrierre/one-on-one" target="_blank" rel='noopener noreferrer'> <button> BOOK ME</button></a>
+                    <a href="https://calendly.com/jonathanbrierre/one-on-one" target="_blank" rel='noopener noreferrer'> <button>BOOK A FREE DISCOVERY CALL</button></a>
                 </div>
             </div>
         </div>
