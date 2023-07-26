@@ -36,7 +36,17 @@ function FeaturedWork({ history }) {
                     <button onClick={() => handleNavigation('handbook')} >PREVIEW</button>
                 </div>
             </div>
-
+            <div className='featured-entrepreneur__container'>
+                <div className='text-container'>
+                    <h3>Entrepreneur Leadership Network Features</h3>
+                    <br />
+                    <br />
+                    <a href='https://www.entrepreneur.com/author/jonathan-brierre' target="_blank" rel='noreferrer noopener'><button>VISIT PROFILE</button></a>
+                </div>
+                <div className='entrepreneur-logo__container' >
+                    <a href='https://www.entrepreneur.com/author/jonathan-brierre' target="_blank" rel='noreferrer noopener'><div className='entrepreneur-logo' /></a>
+                </div>
+            </div>
         </div>
     )
 }

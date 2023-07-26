@@ -155,6 +155,7 @@
     text-align: left;
 }
 
+.featured-entrepreneur__container,
 .featured-meditations__container,
 .featured-book__container {
     display: flex;
@@ -185,12 +186,14 @@
     font-size: 22px
 }
 
+.entrepreneur-logo__container,
 .meditations-image__container,
 .book-image__container {
     flex: 2;
 
 }
 
+.entrepreneur-logo,
 .meditations-image,
 .book-image {
     height: 100%;
@@ -201,7 +204,10 @@
 
 .meditations-image {
     background-image: url('./images/mountain-meditation.png');
+}
 
+.entrepreneur-logo {
+    background-image: url('./images/entrepreneur-logo.jpeg');
 }
 
 .book-image__container .book-image {
@@ -381,12 +387,14 @@
         width: 95vw;
     }
 
+    .featured-entrepreneur__container,
     .featured-meditations__container,
     .featured-book__container {
         gap: 0px;
         height: fit-content;
     }
 
+    .featured-entrepreneur__container,
     .featured-meditations__container {
         flex-direction: column-reverse;
         margin-bottom: 50px;
@@ -399,6 +407,11 @@
     .book-image__container,
     .meditations-image__container {
         margin-bottom: 20px;
+    }
+
+    .entrepreneur-logo {
+        height: 100vw;
+        max-height: 250px;
     }
 
     .meditations-image {
