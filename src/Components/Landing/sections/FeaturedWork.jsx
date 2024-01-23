@@ -30,9 +30,6 @@ function FeaturedWork({ history }) {
                     <h3>A Short Handbook For Happiness</h3>
                     <br />
                     <br />
-                    <p>"Simple and Impactful"</p>
-                    <br />
-                    <h4 className='nyweekly-tag'>~ New York Weekly</h4>
                     <button onClick={() => handleNavigation('handbook')} >PREVIEW</button>
                 </div>
             </div>
