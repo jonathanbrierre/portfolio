@@ -48,11 +48,11 @@
 }
 
 .header-container {
-    background-image: url('./images/skulls-and-roses.png');
+    background-image: url('./images/success-person.jpg');
     background-color: black;
     width: 100%;
     height: 100vh;
-    background-size: 102%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     top: 0;
@@ -71,7 +71,7 @@
 
 .header-container .text-container {
     position: absolute;
-    color: white;
+    color: #D48D4E;
     text-align: left;
     align-items: flex-start;
 }
@@ -89,15 +89,15 @@
 }
 
 .header-container button {
-    border-color: white;
-    color: white;
+    border-color: #D48D4E;
+    color: #D48D4E;
     width: 215px;
     margin-top: 30px;
 }
 
 .header-container button:hover {
-    background-color: white;
-    color: black;
+    background-color: #D48D4E;
+    color: white;
 }
 
 .text-container {
@@ -310,13 +310,13 @@
     background-image: url('./images/microphone.jpg');
 }
 
-.img-box .news {
-    background-image: url('./images/phone-and-paper.png');
+.img-box .map {
+    background-image: url('./images/map-lying-wooden-table.jpg');
     background-position-y: bottom;
 }
 
 .laptop {
-    background-image: url('./images/coding-image.png');
+    background-image: url('./images/coding-image-2.jpg');
 }
 
 .footer__container {
@@ -439,7 +439,7 @@
 
 @media screen and (max-width: 600px) {
     .header-container .text-container {
-        top: 150px;
+        top: 100px;
         left: 20px;
     }
 
@@ -457,6 +457,10 @@
 }
 
 @media screen and (max-width: 500px) {
+    .header-container {
+        background-position-x: -450px;
+    }
+
     .headshot-container {
         height: 80vw;
     }
@@ -479,6 +483,12 @@
         width: 100%;
         align-items: center;
         flex: 1
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header-container {
+        background-position-x: -400px;
     }
 }
 

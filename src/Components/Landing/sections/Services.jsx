@@ -21,9 +21,9 @@ function Services() {
                 </div>
                 <div className='services__row-two'>
                     <div className='service' >
-                        <h3 className='service-header'>Public Relations & <br /> Brand Consulting</h3>
-                        <div className='news__container img-box'>
-                            <div className="news" />
+                        <h3 className='service-header'>Marketing & <br /> Brand Consulting</h3>
+                        <div className='map__container img-box'>
+                            <div className="map" />
                         </div>
                     </div>
                     <div className='service' >

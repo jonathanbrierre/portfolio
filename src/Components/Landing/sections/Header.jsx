@@ -9,13 +9,13 @@ function Header() {
                 </div>
                 <div className='whoami'>
                     <h4 >
-                        Stoic Author & Mentor
+                        Transformational Coach
                         <br />
-                        Public Speaker
-                        <br />
-                        Marketing & Branding Director
+                        Marketing & Branding Strategist
                         <br />
                         Software Engineer
+                        <br />
+                        Best-Selling Author
                     </h4>
                 </div>
                 <div className='book-me-button-container'>
