@@ -7,6 +7,10 @@ const meditations = [
         name: 'box'
     },
     {
+        link: 'https://www.youtube.com/watch?v=C6c87IJadSo',
+        name: 'divine-light'
+    },
+    {
         link: "https://youtu.be/C9PHYEo2zOY",
         name: 'zen'
     },

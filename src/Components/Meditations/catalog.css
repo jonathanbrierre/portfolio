@@ -79,6 +79,11 @@
     background-image: url('./images/box.png');
 }
 
+.meditation-anchor.divine-light {
+    background-image: url('./images/divine-light.png');
+}
+
+
 .meditation-anchor:hover {
     background-size: 110%;
     box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.95);
