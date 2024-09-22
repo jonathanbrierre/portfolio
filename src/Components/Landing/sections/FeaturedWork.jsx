@@ -35,7 +35,7 @@ function FeaturedWork({ history }) {
             </div>
             <div className='featured-entrepreneur__container'>
                 <div className='text-container'>
-                    <h3>Editorial Column on Entrepreneuer.com </h3>
+                    <h3>Editorial Column on Entrepreneur.com </h3>
                     <br />
                     <br />
                     <a href='https://www.entrepreneur.com/author/jonathan-brierre' target="_blank" rel='noreferrer noopener'><button>VISIT PROFILE</button></a>
