@@ -27,15 +27,15 @@ function FeaturedWork({ history }) {
                     <div className='book-image' />
                 </div>
                 <div className="text-container">
-                    <h3>A Short Handbook For Happiness</h3>
+                    <h3>My Written Books</h3>
                     <br />
                     <br />
-                    <button onClick={() => handleNavigation('handbook')} >PREVIEW</button>
+                    <button onClick={() => handleNavigation('handbook')} >READ WITH ME</button>
                 </div>
             </div>
             <div className='featured-entrepreneur__container'>
                 <div className='text-container'>
-                    <h3>Entrepreneur Leadership Network Features</h3>
+                    <h3>Editorial Column on Entrepreneuer.com </h3>
                     <br />
                     <br />
                     <a href='https://www.entrepreneur.com/author/jonathan-brierre' target="_blank" rel='noreferrer noopener'><button>VISIT PROFILE</button></a>
