@@ -53,6 +53,16 @@ function App({ location }) {
         <Route path='/meditations' render={routerProps => <Catalog />} />
         <Route path='/affiliate/:partner' render={routerProps => <AffilitatePage {...routerProps} />} />
       </Switch>
+      <div style={{
+        padding: "177.78% 0 0 0",
+        position: " relative"
+      }}><iframe src="https://myagencycoach.agency/fe/RL5Rv6jo?clsBtn=0" frameborder="0" scrolling="yes" style={{
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '100%',
+        height: '100%'
+      }}></iframe></div>
     </div>
   );
 }

@@ -2,6 +2,10 @@ body {
   min-width: unset;
 }
 
+#fo-conversation-popup-wrapper {
+  z-index: 10;
+}
+
 #root,
 .App {
   height: 100%;
