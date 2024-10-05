@@ -56,7 +56,7 @@ function App({ location }) {
       <div style={{
         padding: "177.78% 0 0 0",
         position: " relative"
-      }}><iframe src="https://myagencycoach.agency/fe/RL5Rv6jo?clsBtn=0" frameborder="0" scrolling="yes" style={{
+      }}><iframe src="https://myagencycoach.agency/fe/RL5Rv6jo?clsBtn=0" frameborder="0" scrolling="yes" title='meditation-coach' style={{
         position: 'absolute',
         top: 0,
         left: 0,
